@@ -1,0 +1,122 @@
+[22:53:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
+[22:53:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[22:53:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:53:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[22:53:54] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[22:54:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:54:01] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[22:54:01] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[22:54:02] [ServerMain/INFO]: No existing world data, creating new world
+[22:54:03] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 8926ms.
+[22:54:03] [ServerMain/INFO]: Loaded 1337 recipes
+[22:54:03] [ServerMain/INFO]: Loaded 1448 advancements
+[22:54:04] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[22:54:04] [Server thread/INFO]: Loading properties
+[22:54:04] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[22:54:04] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:54:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:54:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:54:05] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:54:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:54:06] [Server thread/INFO]: Default game type: SURVIVAL
+[22:54:06] [Server thread/INFO]: Generating keypair
+[22:54:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:54:06] [Server thread/INFO]: Using epoll channel type
+[22:54:06] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:54:06] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:54:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:54:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:54:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:54:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:54:06] [Server thread/INFO]: Preparing level "world"
+[22:54:12] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[22:54:13] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 249.5ms
+[22:54:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:54:17] [Server thread/INFO]: Preparing spawn area: 2%
+[22:54:17] [Server thread/INFO]: Preparing spawn area: 2%
+[22:54:18] [Server thread/INFO]: Preparing spawn area: 2%
+[22:54:18] [Server thread/INFO]: Preparing spawn area: 2%
+[22:54:19] [Server thread/INFO]: Preparing spawn area: 18%
+[22:54:19] [Server thread/INFO]: Preparing spawn area: 18%
+[22:54:20] [Server thread/INFO]: Preparing spawn area: 18%
+[22:54:20] [Server thread/INFO]: Preparing spawn area: 18%
+[22:54:21] [Server thread/INFO]: Preparing spawn area: 40%
+[22:54:21] [Server thread/INFO]: Preparing spawn area: 51%
+[22:54:22] [Server thread/INFO]: Preparing spawn area: 51%
+[22:54:23] [Server thread/INFO]: Preparing spawn area: 51%
+[22:54:23] [Server thread/INFO]: Preparing spawn area: 51%
+[22:54:23] [Server thread/INFO]: Preparing spawn area: 51%
+[22:54:24] [Server thread/INFO]: Preparing spawn area: 79%
+[22:54:24] [Server thread/INFO]: Time elapsed: 7492 ms
+[22:54:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:54:24] [Server thread/INFO]: Preparing spawn area: 2%
+[22:54:25] [Server thread/INFO]: Preparing spawn area: 2%
+[22:54:25] [Server thread/INFO]: Preparing spawn area: 18%
+[22:54:26] [Server thread/INFO]: Preparing spawn area: 51%
+[22:54:26] [Server thread/INFO]: Preparing spawn area: 67%
+[22:54:26] [Server thread/INFO]: Time elapsed: 2195 ms
+[22:54:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:54:26] [Server thread/INFO]: Preparing spawn area: 2%
+[22:54:27] [Server thread/INFO]: Preparing spawn area: 51%
+[22:54:27] [Server thread/INFO]: Time elapsed: 548 ms
+[22:54:27] [Server thread/INFO]: [spark] Starting background profiler...
+[22:54:27] [Server thread/INFO]: Done preparing level "world" (21.407s)
+[22:54:27] [Server thread/INFO]: Running delayed init tasks
+[22:54:27] [Server thread/INFO]: Done (34.371s)! For help, type "help"
+[22:54:27] [Server thread/INFO]: *************************************************************************************
+[22:54:27] [Server thread/INFO]: This is the first time you're starting this server.
+[22:54:27] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[22:54:27] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[22:54:27] [Server thread/INFO]: *************************************************************************************
+[22:54:27] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/home/codespace/.python/current/bin/python3 /workspaces/bebitoland2/msx.py<--[HERE]
+[22:54:27] [User Authenticator #0/INFO]: UUID of player svelnxx is 4b3aaadf-1c71-30f7-9f86-b1a342a8db24
+[22:54:29] [Server thread/INFO]: svelnxx joined the game
+[22:54:29] [Server thread/INFO]: svelnxx[/127.217.179.14:57329] logged in with entity id 25 at ([world]-23.5, 68.0, 42.5)
+[22:57:03] [Server thread/INFO]: Made svelnxx a server operator
+[22:57:11] [Server thread/INFO]: svelnxx issued server command: /reload
+[22:57:11] [Server thread/INFO]: svelnxx: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[22:57:16] [Server thread/INFO]: svelnxx issued server command: /reload confirm
+[22:57:16] [Server thread/INFO]: svelnxx: Please note that this command is not supported and may cause issues when using some plugins.
+[22:57:16] [Server thread/INFO]: svelnxx: If you encounter any issues please use the /stop command to restart your server.
+[22:57:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:57:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:57:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:57:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:57:17] [Server thread/INFO]: Loaded 1337 recipes
+[22:57:17] [Server thread/INFO]: Loaded 1448 advancements
+[22:57:18] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:57:18] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
+[22:57:18] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:57:18] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[22:57:18] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - ViaVersion (5.3.2)
+[22:57:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[22:57:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[22:57:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:57:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:57:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:57:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[22:57:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[22:57:21] [Server thread/INFO]: svelnxx: Reload complete.
+[22:57:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4108ms or 82 ticks behind
+[22:57:21] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:58:04] [Server thread/INFO]: svelnxx issued server command: /plugins
+[22:58:18] [User Authenticator #1/INFO]: UUID of player pyret1818 is a0ab272a-6609-362b-9090-7b8757f2f07d
+[22:58:20] [Server thread/INFO]: pyret1818 joined the game
+[22:58:20] [Server thread/INFO]: pyret1818[/127.232.140.29:33693] logged in with entity id 628 at ([world]-21.5, 68.0, 55.5)
+[22:58:21] [Server thread/INFO]: svelnxx issued server command: /gamemode creative
+[22:58:21] [Server thread/INFO]: [svelnxx: Set own game mode to Creative Mode]
+[22:58:31] [Server thread/INFO]: svelnxx issued server command: /op pyret1818
+[22:58:31] [Server thread/INFO]: [svelnxx: Made pyret1818 a server operator]
+[22:58:48] [Server thread/INFO]: pyret1818 issued server command: /gamemode creative
+[22:58:48] [Server thread/INFO]: [pyret1818: Set own game mode to Creative Mode]
