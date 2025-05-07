@@ -1025,3 +1025,9 @@ Please make sure that LuckPerms is the only permission plugin installed on your 
 [21:37:28] [Server thread/INFO]: svelnxx issued server command: /mv tp 1
 [21:37:45] [Server thread/INFO]: svelnxx issued server command: /gamemode creative
 [21:38:54] [Server thread/INFO]: svelnxx issued server command: /plugins
+[21:41:29] [Server thread/INFO]: svelnxx issued server command: /sw create Map1 1
+[21:41:35] [Server thread/INFO]: svelnxx issued server command: /sw create Map1 default 1
+[21:41:49] [Server thread/INFO]: svelnxx issued server command: /home
+[21:44:28] [Server thread/INFO]: svelnxx issued server command: /afk
+[21:44:30] [Server thread/INFO]: svelnxx issued server command: /afk
+[21:44:33] [Server thread/INFO]: svelnxx lost connection: Disconnected
