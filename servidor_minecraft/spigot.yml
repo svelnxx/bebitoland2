@@ -173,9 +173,20 @@ world-settings:
       tile: 50
       entity: 50
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 players:
   disable-saving: false
 config-version: 12
 stats:
   disable-saving: false
   forced-stats: {}
+anti-xray:
+  enabled: true
+  mode: 1 # Usa 1 para protección básica, o 2 para protección avanzada
+  hide-blocks:
+  - DIAMOND_ORE
+  - GOLD_ORE
+  - EMERALD_ORE
+  - COAL_ORE
+  - IRON_ORE
