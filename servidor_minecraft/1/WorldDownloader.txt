@@ -1,0 +1,4 @@
+#Estes opciones son de solo un mundo de un servidor con multiworld.
+#Fri Nov 06 16:27:00 CST 2020
+WorldName=Colmenas
+LastSaved=1604701619869
