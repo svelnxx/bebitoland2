@@ -1,0 +1,139 @@
+Version: 10
+Debug-Mode: false
+Config:
+  Prefix: '&fReal&bSkywars &7> &r'
+  Languages:
+    Default-Language: en_us
+    Strings:
+      Events:
+        REFILL: '&aRefill'
+        TNTRAIN: '&cTNT &fRain'
+        BORDERSHRINK: '&5End'
+      Boss-Bar:
+        Wait: '&fWaiting players.'
+        End: '&fThe match ended.'
+        DeathMatch: '&5Deathmatch'
+        Run-Time: '&fTime left : &b%time%'
+        Starting: '&fStarting in &b%time% &fsecond(s)'
+      Admin-Shutdown: '&cAn admin shutdown all games.'
+      BungeeCord:
+        Full: '&cThis map is full. &7Please try another one.'
+        No-Available-Maps: '&cThere are currently no available maps. &7Please try again later.'
+        Kick-Message: '&7Connecting to the lobby...'
+        Resetting: '&cThis map is resetting. &7Please try again later.'
+      Search:
+        Not-Found: '&aEmpty'
+      Menus:
+        Filter-Button:
+          Title: '&bFilter'
+          Description: '&fClick here to filter itens on this page.'
+        Next-Button:
+          Title: '&aNext'
+          Description: '&fClick here to go next.'
+        Back-Button:
+          Title: '&ePrevious'
+          Description: '&fClick here to go back.'
+        Main-Menu-Button:
+          Title: '&9Menu'
+          Description: '&fClick here to go to the main menu.'
+  Bungeecord:
+    Enabled: false
+    Kick-Player: true
+    Lobby-Server: lobby
+  Use-Vault-As-Currency: false
+  Invincibility-Seconds: 3
+  Auto-Teleport-To-Lobby: true
+  Scoreboard-In-Lobby: true
+  Enable-Tab-Formatting: true
+  Shops:
+    Enable-Shop: true
+    Enable-Spectator-Shop: true
+    Enable-Kit-Shop: true
+    Only-Buy-Kits-Per-Match: false
+    Enable-Cage-Block-Shop: true
+    Enable-Win-Block-Shop: true
+    Enable-Bow-Particles-Shop: true
+  Right-Click-Player-Info: true
+  PlaceholderAPI-In-Scoreboard: false
+  Disable-Player-Reset: false
+  Disable-Language-Selection: false
+  Disable-Lobby-Items: false
+  Disable-Map-Starting-Countdown:
+    Message: false
+    Actionbar: false
+  Item-Slots:
+    Lobby:
+      Profile: 0
+      Maps: 4
+      Shop: 8
+    Cage:
+      Kit: 1
+      Vote: 4
+      Leave: 7
+    Spectator:
+      Spectate: 1
+      Play-Again: 2
+      Shop: 4
+      Leave: 7
+    Setup:
+      Cage: 1
+      Chest1: 3
+      Chest2: 4
+      Settings: 6
+      Save: 7
+  # Time in seconds
+  Time:
+    Formatting: dd-MM-yyyy HH:mm:ss
+    Offset: 0
+  Time-To-Start: 10
+  Min-Players-ToStart: 2
+  Time-EndGame: 10
+  Refresh-Leaderboards: 600
+  Vote-Before-Seconds: 3
+  Maximum-Game-Time:
+    Solo: 300
+    Teams: 500
+  Shuffle-Items-In-Chest: true
+  Kits:
+    Ender-Pearl-Perk-Give-Interval: 120
+  Default-Refill-Time: 180
+  # Events: REFILL, TNTRAIN
+  # REFILL refills the chests.
+  # TNTRAIN, when executed, summons a TNT above all game players.
+  # Event Config: <event>@<time of execution in seconds>
+  Events:
+    Solo:
+    - REFILL@60
+    - REFILL@120
+    Teams:
+    - REFILL@120
+    - REFILL@260
+  Coins:
+    Per-Win: 10
+    Per-Kill: 5
+    Per-Death: -5
+  Allowed-Commands:
+  - sw
+  - rsw
+  - realskywars
+  Random-Nicknames:
+  - Dimitrios
+  - Nikos
+  - Andreas
+  - Panagiotis
+  - Georgios
+  - Ioannis
+  - Alexandros
+  - Konstantinos
+  - Spyros
+  - Antonios
+  - Eleni
+  - Sophia
+  - Maria
+  - Katerina
+  - Despina
+  - Anastasia
+  - Jose
+  - Ioanna
+  - Evangelia
+  - Elektra

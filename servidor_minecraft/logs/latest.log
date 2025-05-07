@@ -254,3 +254,308 @@
 [21:09:31] [pool-21-thread-3/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 46, threads = 4, took 12.36s)
 [21:09:32] [Server thread/INFO]: svelnxx[/127.217.179.14:47773] logged in with entity id 135 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
 [21:09:46] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user svelnxx has successfully logged in.
+[21:21:46] [Server thread/INFO]: svelnxx issued server command: /sethome
+[21:21:55] [Server thread/INFO]: svelnxx issued server command: /mv tp spawn
+[21:22:10] [Server thread/INFO]: svelnxx issued server command: /gamemode creative
+[21:22:19] [Server thread/INFO]: svelnxx issued server command: /admintools
+[21:26:25] [Server thread/INFO]: svelnxx issued server command: /RELOAD
+[21:26:32] [Server thread/INFO]: svelnxx issued server command: /reload confirm
+[21:26:32] [Server thread/INFO]: svelnxx: Please note that this command is not supported and may cause issues when using some plugins.
+[21:26:32] [Server thread/INFO]: svelnxx: If you encounter any issues please use the /stop command to restart your server.
+[21:26:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:26:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:26:32] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:26:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:26:32] [Server thread/INFO]: [GUIAdminToolsFree] Disabling GUIAdminToolsFree v3.0.6
+[21:26:32] [Server thread/INFO]: [GUIAdminToolsFree] [STDOUT] Stop...
+[21:26:32] [Server thread/WARN]: Nag author(s): '[]' of 'GUIAdminToolsFree v3.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:26:32] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v6.1.31
+[21:26:32] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
+[21:26:32] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
+[21:26:34] [Server thread/INFO]: [NoCheatPlus] Disabling NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[21:26:34] [Server thread/INFO]: [NoCheatPlus] Removed hook: AllViolations(NCP) [1.0].
+[21:26:34] [Server thread/INFO]: [NoCheatPlus] Version 3.16.0-RC-sMD5NET-b1134 is disabled.
+[21:26:34] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
+[21:26:34] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[21:26:34] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:26:34] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
+[21:26:34] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[21:26:34] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[21:26:34] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.16
+[21:26:34] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.22
+[21:26:34] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[21:26:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.12-beta-02+ac380ad
+[21:26:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:26:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
+[21:26:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:26:34] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:26:35] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:26:35] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-742
+[21:26:35] [Server thread/ERROR]: *****************************************************************
+[21:26:35] [Server thread/ERROR]: *** WARNING                                                   ***
+[21:26:35] [Server thread/ERROR]: *** RELOADING THE SERVER WHILE PROTOCOLLIB IS ENABLED MIGHT   ***
+[21:26:35] [Server thread/ERROR]: *** LEAD TO UNEXPECTED ERRORS!                                ***
+[21:26:35] [Server thread/ERROR]: ***                                                           ***
+[21:26:35] [Server thread/ERROR]: *** Consider cleanly restarting your server if you encounter  ***
+[21:26:35] [Server thread/ERROR]: *** any issues related to ProtocolLib before opening an issue ***
+[21:26:35] [Server thread/ERROR]: *** on GitHub!                                                ***
+[21:26:35] [Server thread/ERROR]: *****************************************************************
+[21:26:35] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[21:26:35] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[21:26:35] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:26:35] [Server thread/INFO]: Loaded 1337 recipes
+[21:26:35] [Server thread/INFO]: Loaded 1448 advancements
+[21:26:36] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:26:36] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/RealSkywars.jar'...
+[21:26:37] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/RealSkywars.jar' in 919ms.
+[21:26:37] [Server thread/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[21:26:37] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - Chunky (1.4.36), Essentials (2.21.0), GUIAdminToolsFree (3.0.6), LuckPerms (5.4.158), Multiverse-Core (4.3.16), NoCheatPlus (3.16.0-RC-sMD5NET-b1134), ProtocolLib (5.4.0-SNAPSHOT-742), RealSkywars (1.1), SkinsRestorer (15.6.2), ViaVersion (5.3.2), WorldEdit (7.3.12-beta-02+ac380ad), WorldGuard (7.0.12+829a4a4), nAntiBot (6.1.31), nLogin (10.4.22)
+[21:26:38] [Server thread/WARN]: Legacy plugin NoCheatPlus v3.16.0-RC-sMD5NET-b1134 does not specify an api-version.
+[21:26:38] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[21:26:38] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[21:26:38] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, we're going to kick all the players... because otherwise we'll crash because of ProtocolLib.
+[21:26:38] [Server thread/INFO]: svelnxx lost connection: Server reload, please rejoin!
+[21:26:38] [Server thread/INFO]: svelnxx left the game
+[21:26:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:26:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:26:39] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-742
+[21:26:39] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.3) has not yet been tested! Proceed with caution.
+[21:26:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
+[21:26:39] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.12-beta-02+ac380ad
+[21:26:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@150b7f95]
+[21:26:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
+[21:26:40] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
+[21:26:40] [User Authenticator #1/INFO]: UUID of player svelnxx is 4b3aaadf-1c71-30f7-9f86-b1a342a8db24
+[21:26:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[21:26:40] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[21:26:40] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[21:26:40] [Server thread/INFO]: [RealSkywars] Loading server plugin RealSkywars v1.1
+[21:26:40] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[21:26:40] [Server thread/INFO]: [NoCheatPlus] Loading server plugin NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[21:26:40] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[21:26:41] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[21:26:41] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.21.3
+[21:26:41] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.31
+[21:26:41] [Server thread/INFO]: [GUIAdminToolsFree] Loading server plugin GUIAdminToolsFree v3.0.6
+[21:26:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:26:41] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-742
+[21:26:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
+[21:26:42] [Server thread/INFO]:         __    
+[21:26:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
+[21:26:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:26:42] [Server thread/INFO]: 
+[21:26:42] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:26:42] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:26:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:26:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:26:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1405ms)
+[21:26:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.12-beta-02+ac380ad
+[21:26:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:26:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:26:43] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:26:43] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[21:26:44] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
+[21:26:44] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.35s)
+[21:26:45] [Server thread/INFO]:           __             _       
+[21:26:45] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[21:26:45] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[21:26:45] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[21:26:45] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[21:26:45] [Server thread/INFO]:                   |___/            
+[21:26:45] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[21:26:45] [Server thread/INFO]:  
+[21:26:45] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[21:26:46] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[21:26:46] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[21:26:46] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[21:26:46] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:26:46] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.31
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:26:47] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.39s)
+[21:26:47] [Server thread/INFO]:           _         _   _   ___       _   
+[21:26:47] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[21:26:47] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[21:26:47] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[21:26:47] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[21:26:47] [Server thread/INFO]:                                          
+[21:26:47] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.31
+[21:26:47] [Server thread/INFO]: 
+[21:26:47] [Folia Async Scheduler Thread #1/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[21:26:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[21:26:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[21:26:47] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
+[21:26:47] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[21:26:47] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[21:26:47] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[21:26:47] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[21:26:47] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[21:26:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[21:26:48] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[21:26:48] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:26:48] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:26:48] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[21:26:48] [Server thread/INFO]: [Essentials] Using locale en
+[21:26:48] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:26:48] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:26:48] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[21:26:48] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[21:26:48] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:26:48] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:26:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:26:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:26:49] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[21:26:49] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[21:26:49] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[21:26:49] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[21:26:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[21:26:49] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:26:49] [Server thread/INFO]: [RealSkywars] Enabling RealSkywars v1.1
+[21:26:49] [Server thread/INFO]: [RealSkywars]    _____            _  _____ _ 
+[21:26:49] [Server thread/INFO]: [RealSkywars]   |  __ \          | |/ ____| |
+[21:26:49] [Server thread/INFO]: [RealSkywars]   | |__) |___  __ _| | (___ | | ___   ___      ____ _ _ __ ___
+[21:26:49] [Server thread/INFO]: [RealSkywars]   |  _  // _ \/ _` | |\___ \| |/ / | | \ \ /\ / / _` | '__/ __|
+[21:26:49] [Server thread/INFO]: [RealSkywars]   | | \ \  __/ (_| | |____) |   <| |_| |\ V  V / (_| | |  \__ \
+[21:26:49] [Server thread/INFO]: [RealSkywars]   |_|  \_\___|\__,_|_|_____/|_|\_\\__, | \_/\_/ \__,_|_|  |___/
+[21:26:49] [Server thread/INFO]: [RealSkywars]    Made by: JoseGamer_PT           __/ |      Version: 1.1
+[21:26:49] [Server thread/INFO]: [RealSkywars]                                   |___/
+[21:26:49] [Server thread/INFO]: [RealSkywars] Server version: 1.21.3
+[21:26:49] [Server thread/INFO]: [RealSkywars] Using default 1.18.2+ NMS adapter.
+[21:26:49] [Server thread/INFO]: [RealSkywars] Downloading minecraft language file for pt_pt (1.21.3) ...
+[21:26:49] [Server thread/INFO]: [RealSkywars] Downloaded minecraft language file for pt_pt (1.21.3)!
+[21:26:49] [Server thread/INFO]: [RealSkywars] Downloading minecraft language file for en_us (1.21.3) ...
+[21:26:50] [Server thread/INFO]: [RealSkywars] Downloaded minecraft language file for en_us (1.21.3)!
+[21:26:50] [Server thread/INFO]: [RealSkywars] Downloading minecraft language file for es_es (1.21.3) ...
+[21:26:50] [Server thread/INFO]: [RealSkywars] Downloaded minecraft language file for es_es (1.21.3)!
+[21:26:50] [Server thread/INFO]: [RealSkywars] Loaded 6 kits.
+[21:26:50] [Server thread/INFO]: [RealSkywars] Loaded 0 maps.
+[21:26:50] [Server thread/INFO]: [RealSkywars] Loaded 28 rewards for 4 coin categories.
+[21:26:50] [Server thread/INFO]: [RealSkywars] Vault not found. Local currency will be used.
+[21:26:50] [Server thread/INFO]: [RealSkywars] Finished loading in 1.391 seconds.
+[21:26:50] [Server thread/INFO]: [RealSkywars] <------------- RealSkywars v1.1 ------------->
+[21:26:50] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.16.0-RC-sMD5NET-b1134*
+[21:26:50] [Server thread/WARN]: [NoCheatPlus] Running in Bukkit-API-only mode (1.21.3-63-4190ee7 (MC: 1.21.3)). If this is not intended, please check for updates and consider to request support.
+[21:26:50] [Server thread/WARN]: [NoCheatPlus]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+[21:26:50] [Server thread/WARN]: [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+[21:26:50] [Server thread/WARN]: [NoCheatPlus] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.12 blocks.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[21:26:50] [Server thread/WARN]: [NoCheatPlus] Packet level access via ProtocolLib not available, supported configurations:  | ProtocolLib 4.3.0 or later for Minecraft 1.12.x | ProtocolLib 4.2.0 or later for Minecraft 1.11.x | ProtocolLib 4.1 or later for Minecraft 1.8.x to 1.10.x | ProtocolLib 3.7.0 for Minecraft 1.7.x and earlier | ProtocolLib 3.6.6 for PaperSpigot 1.8.x
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Force disable FastHeal on Minecraft 1.9 and later.
+[21:26:50] [Server thread/INFO]: [NoCheatPlus] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+[21:26:50] [Server thread/INFO]: [GUIAdminToolsFree] Enabling GUIAdminToolsFree v3.0.6
+[21:26:50] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[21:26:50] [Server thread/INFO]:  
+[21:26:50] [Server thread/INFO]: VERSION: 3.0.6
+[21:26:50] [Server thread/INFO]:  
+[21:26:50] [Server thread/INFO]: LOADING ALL SERVICES...
+[21:26:50] [Server thread/INFO]: LOADED ALL SERVICES
+[21:26:50] [Server thread/INFO]:  
+[21:26:50] [Server thread/INFO]: LOADED METRICS
+[21:26:50] [Server thread/INFO]:  
+[21:26:50] [Server thread/INFO]: LOADING SOFT DEPENDENCIES...
+[21:26:50] [Server thread/INFO]: NO JoinLeaveManager
+[21:26:50] [Server thread/INFO]:  
+[21:26:50] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[21:26:51] [Server thread/INFO]: svelnxx: Reload complete.
+[21:26:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18799ms or 375 ticks behind
+[21:26:51] [Craft Scheduler Thread - 10 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:26:51] [Craft Scheduler Thread - 12 - NoCheatPlus/INFO]: [NoCheatPlus] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+[21:26:51] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:26:51] [Craft Scheduler Thread - 12 - NoCheatPlus/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[21:26:51] [Server thread/WARN]: [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING (WHEAT) 
+* MISSING (SIGN / SOLID+GROUND) 
+* MISSING (WOOD_DOOR / SOLID+GROUND) 
+* MISSING (IRON_DOOR / SOLID+GROUND) 
+* MISSING (SUGAR_CANE) 
+* MISSING (CAKE / SOLID+GROUND) 
+* MISSING (BED / SOLID+GROUND) 
+* MISSING (DIODE) 
+* MISSING (NETHER_STALK) 
+* MISSING (BREWING_STAND_ITEM / SOLID+GROUND) 
+* MISSING (CAULDRON_ITEM / SOLID+GROUND) 
+* MISSING (FLOWER_POT_ITEM) 
+* MISSING (SKULL_ITEM) 
+* MISSING (REDSTONE_COMPARATOR) 
+* MISSING (BANNER / SOLID+GROUND) 
+* MISSING (SPRUCE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (BIRCH_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (JUNGLE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (ACACIA_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (DARK_OAK_DOOR_ITEM / SOLID+GROUND) 
+[21:26:51] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[21:26:51] [Craft Scheduler Thread - 11 - RealSkywars/INFO]: [RealSkywars] The plugin is updated to the latest version.
+[21:26:51] [Craft Scheduler Thread - 10 - GUIAdminToolsFree/INFO]: There is not a new update available.
+[21:26:51] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[21:26:53] [Server thread/WARN]: [LuckPerms] User 4b3aaadf-1c71-30f7-9f86-b1a342a8db24 - svelnxx doesn't have data pre-loaded, they have never been processed during pre-login in this session. - denying login.
+[21:26:53] [Server thread/WARN]: [LuckPerms] Player svelnxx has a non-LuckPerms permissible (org.bukkit.permissions.PermissibleBase)!
+This is probably because you have multiple permission plugins installed.
+Please make sure that LuckPerms is the only permission plugin installed on your server!
+(unless you're performing a migration, in which case, just remember to remove your old permission plugin once you're done!)
+[21:26:53] [Server thread/INFO]: Disconnecting svelnxx (/127.217.179.14:45387): [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[21:26:53] [Server thread/INFO]: svelnxx (/127.217.179.14:45387) lost connection: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[21:26:55] [pool-74-thread-4/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 46, threads = 4, took 7.58s)
+[21:26:58] [User Authenticator #1/INFO]: UUID of player svelnxx is 4b3aaadf-1c71-30f7-9f86-b1a342a8db24
+[21:26:59] [Server thread/INFO]: svelnxx[/127.217.179.14:56105] logged in with entity id 7159 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
+[21:27:09] [Folia Async Scheduler Thread #0/INFO]: [nLogin] The user svelnxx has successfully logged in.
+[21:27:16] [Server thread/INFO]: svelnxx issued server command: /gamemode creative
+[21:27:30] [Server thread/INFO]: svelnxx issued server command: /plugins
