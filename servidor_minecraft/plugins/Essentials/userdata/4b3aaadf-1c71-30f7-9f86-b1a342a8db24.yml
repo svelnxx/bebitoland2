@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1746736716909
+  logout: 1746744930470
   login: 1746741628179
 money: '0'
 last-account-name: svelnxx
@@ -40,8 +40,8 @@ lastlocation:
 logoutlocation:
   world: 0899056c-17f2-4cf1-9a07-66ab1955e9fa
   world-name: world
-  x: -18.63311173696362
-  y: 78.0
-  z: 109.29563094311469
-  yaw: -110.00948333740234
-  pitch: -8.298799514770508
+  x: -75.58422189706943
+  y: 79.0
+  z: 109.43728076204809
+  yaw: 172.66087341308594
+  pitch: 9.589558601379395
