@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1746736891026
+  logout: 1746745175364
   login: 1746741630910
 money: '0'
 last-account-name: pyret8duk
 logoutlocation:
   world: 0899056c-17f2-4cf1-9a07-66ab1955e9fa
   world-name: world
-  x: -122.71660341585176
+  x: -57.946966869607245
   y: 79.0
-  z: 98.30000001192093
-  yaw: 167.53860473632812
-  pitch: 43.11228942871094
+  z: 102.8508449423024
+  yaw: 133.4608154296875
+  pitch: 41.24970626831055
 homes:
   home:
     world: 0899056c-17f2-4cf1-9a07-66ab1955e9fa
