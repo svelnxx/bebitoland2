@@ -1,0 +1,70 @@
+#  _____                                    _   _             _
+# |_   _| __ ___  __ _ ___ _   _ _ __ ___  | | | |_   _ _ __ | |_
+#   | || '__/ _ \/ _` / __| | | | '__/ _ \ | |_| | | | | '_ \| __|
+#   | || | |  __/ (_| \__ \ |_| | | |  __/ |  _  | |_| | | | | |_
+#   |_||_|  \___|\__,_|___/\__,_|_|  \___| |_| |_|\__,_|_| |_|\__|
+#
+# Organisation : Cozy Plugins
+# Author : Smudge
+
+treasure:
+  enabled: true
+  type: "treasure"
+  name: "treasure"
+
+  editor:
+    enabled: true
+    name: "editor"
+    permission: "treasurehunt.editor"
+
+  set:
+    enabled: true
+    name: "set"
+    permission: "treasurehunt.set"
+    # Set to false if players should not
+    # be able to replace treasure locations.
+    override_treasure: true
+    unable_to_override_treasure: "&7Treasure already exists in this location and cannot be overridden."
+    replaced_treasure: "&7The treasure in this location has been replaced."
+    placed_treasure: "&7Treasure has been placed in this location."
+    invalid_treasure: "&7Treasure type does not exist."
+    # When true, the treasure will be spawned immediately in the location.
+    spawn_immediately: false
+
+  remove:
+    enable: true
+    name: "remove"
+    permission: "treasurehunt.remove"
+    removed: "&7Removed treasure at location {location}"
+    remove_all: "&7All locations have been removed."
+    none: "&7There are no treasure locations nearby. (4 block radius)"
+
+  spawn:
+    enable: true
+    name: "spawn"
+    permission: "treasurehunt.spawn"
+    spawned_treasure: "&7Attempted to spawn all treasure. {result}"
+
+  unspawn:
+    enable: true
+    name: "unspawn"
+    permission: "treasurehunt.unspawn"
+    unspawned_treasure: "&7Attempted to un-spawn all the treasure."
+
+  find:
+    enable: true
+    name: "find"
+    permission: "treasurehunt.find"
+    header: "&aFound &f{amount} &atreasure."
+    max_lines: 5
+    line: "&e&l{name} &7is at &f{location}&7. &eClick to teleport."
+
+  save:
+    enable: true
+    name: "save"
+    permission: "treasurehunt.save"
+
+  reload:
+    enable: true
+    name: "reload"
+    permission: "treasurehunt.reload"
