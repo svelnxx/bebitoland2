@@ -1172,3 +1172,101 @@ Please contact an administrator.
 [20:21:36] [Folia Async Scheduler Thread #5/INFO]: [nLogin] The user pyret8duk has successfully logged in.
 [20:21:45] [Server thread/INFO]: svelnxx issued server command: /plugins
 [20:23:51] [Server thread/INFO]: svelnxx issued server command: /treasure spawn
+[20:24:33] [Server thread/INFO]: svelnxx has made the advancement [Isn't It Iron Pick]
+[20:24:37] [Server thread/INFO]: svelnxx issued server command: /treasure spawn
+[20:25:17] [Server thread/INFO]: svelnxx issued server command: /treasure spawn
+[20:25:22] [Server thread/INFO]: svelnxx issued server command: /treasure spawn
+[20:27:19] [Server thread/INFO]: svelnxx issued server command: /treasure editor
+[20:27:38] [Server thread/INFO]: svelnxx issued server command: /treasure editor
+[20:28:02] [Server thread/INFO]: svelnxx issued server command: /treasure editor
+[20:29:23] [Server thread/INFO]: svelnxx issued server command: /treasure editor\
+[20:29:25] [Server thread/INFO]: svelnxx issued server command: /treasure editor
+[20:30:32] [Server thread/INFO]: svelnxx issued server command: /treasure createfrominventory inicio1
+[20:30:52] [Server thread/INFO]: svelnxx issued server command: /treasure find
+[20:30:57] [Server thread/INFO]: svelnxx issued server command: /treasure find
+[20:31:02] [Server thread/INFO]: svelnxx issued server command: /treasure spawn
+[20:31:08] [Server thread/INFO]: svelnxx issued server command: /treasure set
+[20:31:08] [Server thread/ERROR]: Command exception: /treasure set
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.base/java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.base/java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozytreasurehunt.command.subcommand.SetCommand.onPlayer(SetCommand.java:63) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.CommandTypeAdapter.onPlayerUser(CommandTypeAdapter.java:103) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.BukkitCommandAdapter.executeAsPlayer(BukkitCommandAdapter.java:200) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.BukkitCommandAdapter.execute(BukkitCommandAdapter.java:165) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.BukkitCommandAdapter.execute(BukkitCommandAdapter.java:58) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.BukkitCommandAdapter.execute(BukkitCommandAdapter.java:75) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:31:11] [Server thread/INFO]: svelnxx issued server command: /treasure se
+[20:31:13] [Server thread/INFO]: svelnxx issued server command: /treasure set
+[20:31:13] [Server thread/ERROR]: Command exception: /treasure set
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.base/java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.base/java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozytreasurehunt.command.subcommand.SetCommand.onPlayer(SetCommand.java:63) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.CommandTypeAdapter.onPlayerUser(CommandTypeAdapter.java:103) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.BukkitCommandAdapter.executeAsPlayer(BukkitCommandAdapter.java:200) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.BukkitCommandAdapter.execute(BukkitCommandAdapter.java:165) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.BukkitCommandAdapter.execute(BukkitCommandAdapter.java:58) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at CozyTreasureHunt-1.1.0.jar/com.github.cozyplugins.cozylibrary.command.adapter.BukkitCommandAdapter.execute(BukkitCommandAdapter.java:75) ~[CozyTreasureHunt-1.1.0.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:32:21] [Server thread/INFO]: svelnxx issued server command: /treasure set cofre 1
+[20:32:24] [Server thread/INFO]: svelnxx issued server command: /treasure set cofre 1
