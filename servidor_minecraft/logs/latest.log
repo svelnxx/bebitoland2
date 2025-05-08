@@ -876,3 +876,26 @@ Please contact an administrator.
 [20:03:38] [Server thread/INFO]: pyret8duk[/127.232.140.29:45279] logged in with entity id 1128 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
 [20:03:44] [Folia Async Scheduler Thread #0/INFO]: [nLogin] The user pyret8duk has successfully logged in.
 [20:03:48] [Server thread/INFO]: pyret8duk issued server command: /tpa svelnxx
+[20:03:58] [Server thread/INFO]: pyret8duk issued server command: /msg
+[20:04:04] [Server thread/INFO]: pyret8duk issued server command: /msg svelnxx gay
+[20:04:14] [Server thread/INFO]: svelnxx issued server command: /viaversiob
+[20:04:15] [Server thread/INFO]: svelnxx issued server command: /viaversionn
+[20:04:21] [Server thread/INFO]: svelnxx issued server command: /viaversion
+[20:05:10] [Server thread/INFO]: svelnxx issued server command: /vanish
+[20:05:13] [Server thread/INFO]: pyret8duk lost connection: Disconnected
+[20:05:28] [Server thread/INFO]: svelnxx issued server command: /admin
+[20:05:57] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:06:11] [Server thread/INFO]: svelnxx issued server command: /admin svelnxx
+[20:07:20] [User Authenticator #3/INFO]: UUID of player pyret8duk is 26d02e37-b78e-3547-821a-d05853e732ef
+[20:07:22] [Server thread/INFO]: pyret8duk[/127.232.140.29:58035] logged in with entity id 1726 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
+[20:07:30] [Folia Async Scheduler Thread #0/INFO]: [nLogin] The user pyret8duk has successfully logged in.
+[20:08:38] [Server thread/INFO]: svelnxx issued server command: /god pyret8duk
+[20:08:49] [Server thread/INFO]: pyret8duk issued server command: /gamemode creative
+[20:08:51] [Server thread/INFO]: svelnxx issued server command: /god pyret8duk
+[20:08:57] [Server thread/INFO]: pyret8duk issued server command: /gamemode creative
+[20:09:03] [Server thread/INFO]: svelnxx issued server command: /ungod pyret8duk
+[20:09:06] [Server thread/INFO]: pyret8duk issued server command: /gamemode creative
+[20:09:10] [Server thread/INFO]: svelnxx issued server command: /heal pyret8duk
+[20:09:15] [Server thread/INFO]: pyret8duk issued server command: /gamemode creative
+[20:09:28] [Server thread/INFO]: pyret8duk issued server command: /gamemode creative
+[20:12:57] [Server thread/INFO]: svelnxx issued server command: /vanish
