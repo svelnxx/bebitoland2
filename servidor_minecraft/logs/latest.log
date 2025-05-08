@@ -2060,3 +2060,370 @@ java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 [21:40:42] [Server thread/INFO]: svelnxx issued server command: /tp -259 -32 -2860
 [21:40:49] [Server thread/INFO]: svelnxx issued server command: /tp2p -259 -32 -2860
 [21:42:00] [Server thread/INFO]: svelnxx issued server command: /tp2p 4 -12 -1430
+[21:47:25] [Server thread/INFO]: svelnxx issued server command: /mv tp Parkour
+[21:47:54] [Server thread/INFO]: svelnxx issued server command: /mv tp normal
+[21:48:03] [Server thread/INFO]: svelnxx issued server command: /spawn
+[21:48:08] [Async Chat Thread - #5/INFO]: [Not Secure] <pyret8duk> dime
+[21:48:19] [Async Chat Thread - #5/INFO]: [Not Secure] <pyret8duk> perame
+[21:48:29] [Async Chat Thread - #5/INFO]: [Not Secure] <svelnxx> busca tu un parkou y me lo pas
+[21:48:48] [Server thread/INFO]: svelnxx issued server command: /gamemode creative
+[21:50:00] [Server thread/INFO]: svelnxx issued server command: /chunky radius 10000000000
+[21:50:03] [Server thread/INFO]: svelnxx issued server command: /chunky radius 10000000000 set
+[21:50:46] [IO-Worker-36/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./Parkour/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$tryWriteAsync$5(DimensionDataStorage.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:52:46] [Async Chat Thread - #7/INFO]: [Not Secure] <svelnxx> busca tu un parkou y me lo pas
+[21:54:32] [Async Chat Thread - #9/INFO]: [Not Secure] <pyret8duk> https://www.minecraftmaps.com/50411-tornado-parkour
+[21:54:35] [Async Chat Thread - #9/INFO]: [Not Secure] <pyret8duk> https://www.minecraftmaps.com/50411-tornado-parkour
+[21:54:42] [Async Chat Thread - #9/INFO]: [Not Secure] <svelnxx> ds
+[21:55:46] [IO-Worker-38/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./Parkour/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$tryWriteAsync$5(DimensionDataStorage.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:58:47] [Server thread/INFO]: svelnxx issued server command: /mv import __MACOSX normal
+[21:59:01] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado Parkour normal
+[21:59:35] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[21:59:38] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[21:59:56] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[21:59:58] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[22:00:04] [Server thread/INFO]: svelnxx issued server command: /reload confirm
+[22:00:04] [Server thread/INFO]: svelnxx: Please note that this command is not supported and may cause issues when using some plugins.
+[22:00:04] [Server thread/INFO]: svelnxx: If you encounter any issues please use the /stop command to restart your server.
+[22:00:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:00:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:00:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:00:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:00:05] [Server thread/INFO]: [GUIAdminToolsFree] Disabling GUIAdminToolsFree v3.0.6
+[22:00:05] [Server thread/INFO]: [GUIAdminToolsFree] [STDOUT] Stop...
+[22:00:05] [Server thread/WARN]: Nag author(s): '[]' of 'GUIAdminToolsFree v3.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:00:05] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v6.1.31
+[22:00:05] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
+[22:00:05] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
+[22:00:07] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
+[22:00:07] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[22:00:07] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:00:07] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:00:07] [Server thread/INFO]: [WorldGuardExtraFlags] Disabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[22:00:07] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
+[22:00:07] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.5
+[22:00:07] [Server thread/INFO]: [SetSpawn] Disabled!
+[22:00:07] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[22:00:07] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[22:00:07] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.16
+[22:00:07] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.22
+[22:00:07] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[22:00:07] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[22:00:07] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[22:00:07] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
+[22:00:07] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:00:07] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:00:07] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:00:07] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-742
+[22:00:07] [Server thread/ERROR]: *****************************************************************
+[22:00:07] [Server thread/ERROR]: *** WARNING                                                   ***
+[22:00:07] [Server thread/ERROR]: *** RELOADING THE SERVER WHILE PROTOCOLLIB IS ENABLED MIGHT   ***
+[22:00:07] [Server thread/ERROR]: *** LEAD TO UNEXPECTED ERRORS!                                ***
+[22:00:07] [Server thread/ERROR]: ***                                                           ***
+[22:00:07] [Server thread/ERROR]: *** Consider cleanly restarting your server if you encounter  ***
+[22:00:07] [Server thread/ERROR]: *** any issues related to ProtocolLib before opening an issue ***
+[22:00:07] [Server thread/ERROR]: *** on GitHub!                                                ***
+[22:00:07] [Server thread/ERROR]: *****************************************************************
+[22:00:07] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.12-beta-02+ac380ad
+[22:00:07] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:00:07] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[22:00:07] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[22:00:07] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[22:00:07] [Server thread/INFO]: Loaded 1337 recipes
+[22:00:07] [Server thread/INFO]: Loaded 1448 advancements
+[22:00:07] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:00:07] [Paper Async Command Builder Thread Pool - 13/ERROR]: Caught previously unhandled exception :
+[22:00:07] [Paper Async Command Builder Thread Pool - 13/ERROR]: Paper Async Command Builder Thread Pool - 13
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:00:08] [Server thread/INFO]: [PluginInitializerManager] Initialized 15 plugins
+[22:00:08] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+ - Chunky (1.4.36), Essentials (2.21.0), GUIAdminToolsFree (3.0.6), Geyser-Spigot (2.7.1-SNAPSHOT), LuckPerms (5.4.158), Multiverse-Core (4.3.16), ProtocolLib (5.4.0-SNAPSHOT-742), SetSpawn (5.5), SkinsRestorer (15.6.2), ViaVersion (5.3.2), WorldEdit (7.3.12-beta-02+ac380ad), WorldGuard (7.0.12+829a4a4), WorldGuardExtraFlags (4.2.4-SNAPSHOT), nAntiBot (6.1.31), nLogin (10.4.22)
+[22:00:08] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[22:00:08] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[22:00:08] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, we're going to kick all the players... because otherwise we'll crash because of ProtocolLib.
+[22:00:08] [Server thread/INFO]: pyret8duk lost connection: Server reload, please rejoin!
+[22:00:08] [Server thread/INFO]: pyret8duk left the game
+[22:00:08] [Server thread/INFO]: svelnxx lost connection: Server reload, please rejoin!
+[22:00:08] [Server thread/INFO]: svelnxx left the game
+[22:00:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:00:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:00:09] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.12-beta-02+ac380ad
+[22:00:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@169f1f79]
+[22:00:10] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-742
+[22:00:10] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.3) has not yet been tested! Proceed with caution.
+[22:00:10] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
+[22:00:10] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[22:00:10] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
+[22:00:10] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
+[22:00:10] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[22:00:10] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.5
+[22:00:10] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[22:00:10] [Server thread/INFO]: [WorldGuardExtraFlags] Loading server plugin WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[22:00:10] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[22:00:10] [User Authenticator #9/INFO]: UUID of player svelnxx is 4b3aaadf-1c71-30f7-9f86-b1a342a8db24
+[22:00:11] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:00:11] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:00:11] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[22:00:11] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.31
+[22:00:11] [Server thread/INFO]: [GUIAdminToolsFree] Loading server plugin GUIAdminToolsFree v3.0.6
+[22:00:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:00:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.12-beta-02+ac380ad
+[22:00:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:00:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:00:11] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:00:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[22:00:13] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-742
+[22:00:13] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
+[22:00:13] [Server thread/INFO]:         __    
+[22:00:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
+[22:00:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[22:00:13] [Server thread/INFO]: 
+[22:00:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:00:13] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:00:13] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:00:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:00:14] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1133ms)
+[22:00:14] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
+[22:00:14] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.55s)
+[22:00:14] [Server thread/INFO]:           __             _       
+[22:00:14] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[22:00:14] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[22:00:14] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[22:00:14] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[22:00:14] [Server thread/INFO]:                   |___/            
+[22:00:14] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[22:00:14] [Server thread/INFO]:  
+[22:00:14] [User Authenticator #9/INFO]: UUID of player pyret8duk is 26d02e37-b78e-3547-821a-d05853e732ef
+[22:00:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[22:00:15] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[22:00:15] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[22:00:16] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[22:00:16] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:00:16] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.31
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |------------------|
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Version: 15.6.2
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     This is the latest version!
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[22:00:16] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[22:00:16] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.27s)
+[22:00:16] [Server thread/INFO]:           _         _   _   ___       _   
+[22:00:16] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[22:00:16] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[22:00:16] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[22:00:16] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[22:00:16] [Server thread/INFO]:                                          
+[22:00:16] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.31
+[22:00:16] [Server thread/INFO]: 
+[22:00:17] [Folia Async Scheduler Thread #0/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[22:00:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[22:00:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[22:00:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[22:00:17] [Server thread/INFO]: [WorldGuard] (1) TNT ignition is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (1) Lighters are PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (1) Lava fire is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (1) Fire spread is UNRESTRICTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world '1'
+[22:00:17] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[22:00:17] [Server thread/INFO]: [WorldGuard] (colmenas) TNT ignition is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (colmenas) Lighters are PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (colmenas) Lava fire is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (colmenas) Fire spread is UNRESTRICTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'colmenas'
+[22:00:17] [Server thread/INFO]: [WorldGuard] (Parkour) TNT ignition is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (Parkour) Lighters are PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (Parkour) Lava fire is PERMITTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] (Parkour) Fire spread is UNRESTRICTED.
+[22:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Parkour'
+[22:00:17] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:00:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
+[22:00:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[22:00:17] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[22:00:17] [Server thread/INFO]: [Multiverse-Core] 7 - World(s) loaded.
+[22:00:17] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[22:00:17] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[22:00:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[22:00:17] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[22:00:17] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:00:17] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[22:00:17] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[22:00:17] [Server thread/INFO]: [Essentials] Using locale en
+[22:00:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:00:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:00:17] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[22:00:17] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[22:00:17] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:00:17] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.5
+[22:00:17] [Server thread/INFO]: [SetSpawn] Enabled!
+[22:00:17] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlySpeedFlagHandler
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[22:00:17] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[22:00:18] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[22:00:18] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[22:00:18] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[22:00:18] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[22:00:18] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[22:00:18] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[22:00:18] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[22:00:18] [Server thread/INFO]: [GUIAdminToolsFree] Enabling GUIAdminToolsFree v3.0.6
+[22:00:18] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[22:00:18] [Server thread/INFO]:  
+[22:00:18] [Server thread/INFO]: VERSION: 3.0.6
+[22:00:18] [Server thread/INFO]:  
+[22:00:18] [Server thread/INFO]: LOADING ALL SERVICES...
+[22:00:18] [Server thread/INFO]: LOADED ALL SERVICES
+[22:00:18] [Server thread/INFO]:  
+[22:00:18] [Server thread/INFO]: LOADED METRICS
+[22:00:18] [Server thread/INFO]:  
+[22:00:18] [Server thread/INFO]: LOADING SOFT DEPENDENCIES...
+[22:00:18] [Server thread/INFO]: NO JoinLeaveManager
+[22:00:18] [Server thread/INFO]:  
+[22:00:18] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[22:00:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:00:18] [Server thread/INFO]: [Geyser-Spigot] 
+[22:00:18] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b825 (git-master-503087a)
+[22:00:18] [Server thread/INFO]: [Geyser-Spigot] 
+[22:00:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:00:22] [epollEventLoopGroup-27-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[22:00:22] [Server thread/INFO]: [Geyser-Spigot] Done (3.731s)! Run /geyser help for help!
+[22:00:22] [Server thread/INFO]: svelnxx: Reload complete.
+[22:00:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17493ms or 349 ticks behind
+[22:00:22] [Craft Scheduler Thread - 68 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:00:22] [Craft Scheduler Thread - 68 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:00:22] [Craft Scheduler Thread - 58 - GUIAdminToolsFree/INFO]: There is not a new update available.
+[22:00:22] [Server thread/WARN]: [LuckPerms] User 4b3aaadf-1c71-30f7-9f86-b1a342a8db24 - svelnxx doesn't have data pre-loaded, they have never been processed during pre-login in this session. - denying login.
+[22:00:22] [Server thread/WARN]: [LuckPerms] Player svelnxx has a non-LuckPerms permissible (org.bukkit.permissions.PermissibleBase)!
+This is probably because you have multiple permission plugins installed.
+Please make sure that LuckPerms is the only permission plugin installed on your server!
+(unless you're performing a migration, in which case, just remember to remove your old permission plugin once you're done!)
+[22:00:22] [Server thread/INFO]: Disconnecting svelnxx (/127.217.179.14:32863): [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[22:00:22] [Server thread/WARN]: [nLogin] Could not find connection cache for user pyret8duk in PlayerLoginEvent event (connection was changed?)
+[22:00:22] [Server thread/INFO]: Disconnecting pyret8duk (/127.232.140.29:33229): [nLogin]
+
+Could not find connection cache for user pyret8duk in PlayerLoginEvent event (connection was changed?)
+
+Please contact an administrator.
+[22:00:22] [Server thread/INFO]: svelnxx (/127.217.179.14:32863) lost connection: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[22:00:22] [Server thread/INFO]: pyret8duk (/127.232.140.29:33229) lost connection: [nLogin]
+
+Could not find connection cache for user pyret8duk in PlayerLoginEvent event (connection was changed?)
+
+Please contact an administrator.
+[22:00:27] [User Authenticator #9/INFO]: UUID of player svelnxx is 4b3aaadf-1c71-30f7-9f86-b1a342a8db24
+[22:00:27] [pool-338-thread-3/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 46, threads = 4, took 10.70s)
+[22:00:28] [Server thread/INFO]: svelnxx[/127.217.179.14:59387] logged in with entity id 21645 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
+[22:00:29] [User Authenticator #9/INFO]: UUID of player pyret8duk is 26d02e37-b78e-3547-821a-d05853e732ef
+[22:00:30] [Server thread/INFO]: pyret8duk[/127.232.140.29:53263] logged in with entity id 21679 at ([world]-64.589906022711, 79.0, 113.22951621543935)
+[22:00:45] [Folia Async Scheduler Thread #5/INFO]: [nLogin] The user pyret8duk has successfully logged in.
+[22:00:48] [Folia Async Scheduler Thread #5/INFO]: [nLogin] The user svelnxx has successfully logged in.
+[22:00:51] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[22:00:55] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[22:01:04] [IO-Worker-40/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./Parkour/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$tryWriteAsync$5(DimensionDataStorage.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:02:57] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normala
+[22:02:59] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normala
+[22:03:02] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[22:03:03] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[22:03:12] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[22:03:13] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
+[22:03:19] [Server thread/INFO]: svelnxx issued server command: /mv import Tornado normal
