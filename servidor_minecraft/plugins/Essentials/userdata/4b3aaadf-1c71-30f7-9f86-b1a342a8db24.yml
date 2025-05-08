@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1746654273097
-  login: 1746653756106
+  logout: 1746734179565
+  login: 1746734562068
 money: '0'
 last-account-name: svelnxx
 homes:
@@ -43,5 +43,5 @@ logoutlocation:
   x: -18.63311173696362
   y: 78.0
   z: 109.29563094311469
-  yaw: -73.81128692626953
-  pitch: 6.733920574188232
+  yaw: -110.00948333740234
+  pitch: -8.298799514770508
