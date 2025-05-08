@@ -17,10 +17,10 @@ regions:
             unique-ids: [4b3aaadf-1c71-30f7-9f86-b1a342a8db24]
         flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, greeting: §aBienvenido
                 al Spawn!, leaf-decay: deny, lighter: deny, entry-group: MEMBERS,
-            enderman-grief: deny, pvp: deny, firework-damage: deny, block-place: deny,
+            enderman-grief: deny, pvp: deny, block-place: deny, firework-damage: deny,
             mob-spawning: deny, fire-spread: deny, entry: allow, creeper-explosion: deny,
-            build: deny, block-break: deny, damage-animals: deny, lava-flow: deny,
-            tnt: deny, ghast-fireball: deny}
+            build: deny, fall-damage: deny, mob-damage: deny, block-break: deny, damage-animals: deny,
+            lava-flow: deny, tnt: deny, ghast-fireball: deny}
         owners: {}
         type: cuboid
         priority: 0

@@ -1565,3 +1565,23 @@ java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 [21:02:51] [Folia Async Scheduler Thread #5/INFO]: [nLogin] The user pyret8duk has successfully logged in.
 [21:02:58] [Server thread/INFO]: pyret8duk issued server command: /spawn
 [21:04:39] [Server thread/INFO]: pyret8duk issued server command: /spawn
+[21:04:53] [Server thread/INFO]: svelnxx issued server command: /spawn
+[21:04:57] [Server thread/INFO]: pyret8duk issued server command: /spawn
+[21:05:50] [Server thread/INFO]: svelnxx issued server command: /plugins
+[21:06:28] [Server thread/INFO]: svelnxx issued server command: /rg flag spawn potion-effects night_vision:1
+[21:07:57] [Server thread/INFO]: pyret8duk was slain by Enderman
+[21:08:22] [Server thread/INFO]: svelnxx issued server command: /rg flag spawn mob-damage deny
+[21:08:31] [Server thread/INFO]: svelnxx issued server command: /rg flag spawn mob-damage deny
+[21:08:42] [Server thread/INFO]: svelnxx issued server command: /rg flag spawn mob-damage deny
+[21:08:47] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[21:09:08] [Server thread/INFO]: pyret8duk issued server command: /sethome
+[21:09:12] [Server thread/INFO]: pyret8duk issued server command: /home
+[21:09:13] [Server thread/INFO]: svelnxx issued server command: /rg flag spawn potion-effects night_vision:0
+[21:09:44] [Server thread/INFO]: pyret8duk issued server command: /sethome
+[21:09:54] [Server thread/INFO]: pyret8duk issued server command: /spawn
+[21:10:10] [Server thread/INFO]: svelnxx issued server command: /tp pyret8duk svelnxx
+[21:11:17] [Server thread/INFO]: svelnxx issued server command: /rg flag spawn fall-damage deny
+[21:11:46] [Server thread/INFO]: svelnxx issued server command: /rg flag spawn fall-damage deny
+[21:11:47] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[21:14:04] [Server thread/INFO]: svelnxx issued server command: /setblock -67 78 113 minecraft:light[level=15]
+[21:14:04] [Server thread/INFO]: [svelnxx: Changed the block at -67, 78, 113]
