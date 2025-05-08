@@ -1274,3 +1274,16 @@ java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 [20:38:38] [Server thread/INFO]: svelnxx issued server command: /vanish
 [20:41:31] [Server thread/INFO]: pyret8duk lost connection: Disconnected
 [20:42:17] [Server thread/INFO]: svelnxx has made the advancement [Suit Up]
+[20:46:37] [Server thread/INFO]: svelnxx issued server command: /tellraw @a {"text":"📍 ¡Un cofre misterioso apareció en X: 200, Z: -150!","color":"gold","bold":true}
+[20:46:53] [Server thread/INFO]: svelnxx issued server command: /clearchat
+[20:47:22] [Server thread/INFO]: svelnxx issued server command: /vanish
+[20:47:26] [Server thread/INFO]: svelnxx issued server command: /tp py
+[20:50:14] [Server thread/INFO]: svelnxx issued server command: /spawn
+[20:50:26] [User Authenticator #6/INFO]: UUID of player pyret8duk is 26d02e37-b78e-3547-821a-d05853e732ef
+[20:50:28] [Server thread/INFO]: pyret8duk[/127.232.140.29:58525] logged in with entity id 11613 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
+[20:50:36] [Folia Async Scheduler Thread #0/INFO]: [nLogin] The user pyret8duk has successfully logged in.
+[20:52:03] [Server thread/INFO]: svelnxx issued server command: /tellraw @a {"text":"📍 ¡Un cofre misterioso apareció en X: 200, Z: -150!","color":"gold","bold":true}
+[20:52:23] [Async Chat Thread - #0/INFO]: [Not Secure] <pyret8duk> voy a ir
+[20:52:37] [Server thread/INFO]: svelnxx issued server command: /clearchat
+[20:53:47] [Async Chat Thread - #1/INFO]: [Not Secure] <pyret8duk> ./rg flags
+[20:54:01] [Server thread/INFO]: svelnxx issued server command: /rg list
