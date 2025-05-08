@@ -2037,3 +2037,26 @@ java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 [21:33:13] [Server thread/INFO]: [svelnxx: Changed the block at -37, 79, 113]
 [21:33:14] [Server thread/INFO]: svelnxx issued server command: /setblock ~1 ~ ~ minecraft:light[level=15]
 [21:33:14] [Server thread/INFO]: [svelnxx: Changed the block at -41, 79, 113]
+[21:35:39] [Server thread/INFO]: svelnxx issued server command: /mv import parkour normal
+[21:37:40] [Server thread/INFO]: svelnxx issued server command: /mv import Parkour stripes reboot normal
+[21:37:43] [Server thread/INFO]: svelnxx issued server command: /mv import Parkour stripes reboot normal
+[21:38:14] [Server thread/INFO]: svelnxx issued server command: /mv import Parkour normal
+[21:38:14] [Server thread/INFO]: svelnxx: Starting import of world 'Parkour'...
+[21:38:14] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'Parkour' - Env: NORMAL - Type: null
+[21:38:15] [Server thread/INFO]: Preparing start region for dimension minecraft:parkour
+[21:38:15] [Server thread/INFO]: Preparing spawn area: 0%
+[21:38:15] [Server thread/INFO]: Time elapsed: 85 ms
+[21:38:15] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[21:38:15] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[21:38:15] [Server thread/INFO]: [WorldGuard] (Parkour) TNT ignition is PERMITTED.
+[21:38:15] [Server thread/INFO]: [WorldGuard] (Parkour) Lighters are PERMITTED.
+[21:38:15] [Server thread/INFO]: [WorldGuard] (Parkour) Lava fire is PERMITTED.
+[21:38:15] [Server thread/INFO]: [WorldGuard] (Parkour) Fire spread is UNRESTRICTED.
+[21:38:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Parkour'
+[21:38:15] [Server thread/INFO]: svelnxx: Complete!
+[21:38:23] [Server thread/INFO]: svelnxx issued server command: /mv tp Parkour
+[21:38:49] [Server thread/INFO]: svelnxx issued server command: /gamemode creative
+[21:40:32] [Server thread/INFO]: svelnxx issued server command: /tp -259 -32 -2860
+[21:40:42] [Server thread/INFO]: svelnxx issued server command: /tp -259 -32 -2860
+[21:40:49] [Server thread/INFO]: svelnxx issued server command: /tp2p -259 -32 -2860
+[21:42:00] [Server thread/INFO]: svelnxx issued server command: /tp2p 4 -12 -1430

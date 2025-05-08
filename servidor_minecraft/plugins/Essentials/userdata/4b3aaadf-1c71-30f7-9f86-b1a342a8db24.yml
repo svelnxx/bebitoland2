@@ -30,13 +30,13 @@ homes:
     yaw: -108.06500244140625
     pitch: 9.949891090393066
 lastlocation:
-  world: e16f3161-bff2-48fc-bf1b-5759b2520505
-  world-name: '1'
-  x: 10.134314529689096
-  y: 101.70373958289005
-  z: -28.346848652044226
-  yaw: -65.9649658203125
-  pitch: 5.310091018676758
+  world: f3629631-0ed0-4560-b439-26ba8ece7d0b
+  world-name: Parkour
+  x: -264.4658844755328
+  y: -30.0
+  z: -2883.5744600262383
+  yaw: -87.76534271240234
+  pitch: 8.152040481567383
 logoutlocation:
   world: 0899056c-17f2-4cf1-9a07-66ab1955e9fa
   world-name: world
