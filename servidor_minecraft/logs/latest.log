@@ -3546,3 +3546,4 @@ Caused by: java.lang.IllegalStateException: zip file closed
 [21:52:48] [Server thread/INFO]: svelnxx issued server command: /grim brands
 [21:53:07] [Server thread/INFO]: svelnxx issued server command: /grim profile svelnxx
 [21:53:27] [Server thread/INFO]: svelnxx issued server command: /grim version
+[22:45:46] [Server thread/INFO]: svelnxx lost connection: Disconnected
