@@ -1,0 +1,93 @@
+# %check_name% - nombre del check
+# %description% - descripción del check
+# %vl% - cantidad de flags (violaciones)
+# %verbose% - información extra
+# %player% - nombre del jugador
+# [alert] - comando especial para enviar alertas
+# [webhook] - comando especial para enviar a Discord (webhook)
+# [proxy] - comando especial para enviar a otros servidores conectados (Bungee/Velocity)
+
+Punishments:
+  Simulación:
+    remove-violations-after: 300
+    checks:
+      - "Simulation"
+      - "GroundSpoof"
+      - "Timer"
+      - "NoFall"
+    commands:
+      - "100:40 [alert]"
+      - "100:100 [webhook]"
+      - "100:100 [proxy]"
+
+  Knockback:
+    remove-violations-after: 300
+    checks:
+      - "Knockback"
+      - "Explosion"
+    commands:
+      - "5:5 [alert]"
+      - "20:20 [webhook]"
+      - "20:20 [proxy]"
+
+  Post:
+    remove-violations-after: 300
+    checks:
+      - "Post"
+    commands:
+      - "20:20 [alert]"
+      - "40:40 [webhook]"
+      - "40:40 [proxy]"
+
+  Paquetes Maliciosos:
+    remove-violations-after: 300
+    checks:
+      - "BadPackets"
+      - "Crash"
+    commands:
+      - "20:20 [alert]"
+      - "40:40 [webhook]"
+      - "40:40 [proxy]"
+
+  Alcance:
+    remove-violations-after: 300
+    checks:
+      - "Reach"
+    commands:
+      - "5:5 [alert]"
+      - "5:5 [webhook]"
+      - "5:5 [proxy]"
+
+  Misceláneos:
+    remove-violations-after: 300
+    checks:
+      - "Vehicle"
+      - "NoSlow"
+      - "Sprint"
+      - "MultiActions"
+      - "Place"
+      - "Baritone"
+      - "Break"
+      - "TransactionOrder"
+      - "Elytra"
+    commands:
+      - "10:5 [alert]"
+      - "20:10 [webhook]"
+      - "20:10 [proxy]"
+
+  Combate:
+    remove-violations-after: 300
+    checks:
+      - "Interact"
+      - "Killaura"
+      - "Aim"
+    commands:
+      - "20:40 [alert]"
+
+  # Placeholder para futuros checks de autoclick
+  Autoclicker:
+    remove-violations-after: 300
+    checks:
+      - "Autoclicker"
+    commands:
+      - "20:40 [alert]"

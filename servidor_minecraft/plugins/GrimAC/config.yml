@@ -1,0 +1,102 @@
+# GrimAC main configuration
+# Optimized configuration for PvP servers - updated 2025
+
+alerts:
+  print-to-console: true
+  proxy:
+    send: false
+    receive: false
+
+verbose:
+  print-to-console: false
+
+client-brand:
+  ignored-clients:
+    - "^vanilla$"
+    - "^fabric$"
+    - "^lunarclient:v\\d+\\.\\d+\\.\\d+-\\d{4}$"
+    - "^Feather Fabric$"
+    - "^labymod$"
+
+spectators:
+  hide-regardless: true
+  allowed-worlds:
+    - ""
+
+max-transaction-time: 60
+cancel-duplicate-packet: true
+ignore-duplicate-packet-rotation: false
+
+Simulation:
+  setback-decay-multiplier: 0.999
+  threshold: 0.001
+  immediate-setback-threshold: 0.1
+  max-advantage: 1
+  max-ceiling: 4
+
+Phase:
+  setbackvl: 1
+  decay: 0.005
+
+AirLiquidPlace:
+  cancelvl: 0
+
+FabricatedPlace:
+  cancelvl: 5
+
+FarPlace:
+  cancelvl: 5
+
+PositionPlace:
+  cancelvl: 5
+
+RotationPlace:
+  cancelvl: 5
+
+NoSlow:
+  threshold: 0.001
+  setbackvl: 5
+  decay: 0.05
+
+Knockback:
+  setback-decay-multiplier: 0.999
+  threshold: 0.001
+  immediate-setback-threshold: 0.1
+  max-advantage: 1
+  max-ceiling: 4
+
+Explosion:
+  threshold: 0.001
+  setbackvl: 3
+
+TimerA:
+  setbackvl: 10
+  drift: 120
+  ping-abuse-limit-threshold: 800  # más permisivo para jugadores con mala conexión
+
+NegativeTimer:
+  drift: 1200
+
+TimerVehicle:
+  setbackvl: 10
+
+Reach:
+  threshold: 0.0005
+  block-impossible-hits: true
+  enable-post-packet: true  # Recomendado si el server es PvP 1.8
+
+exploit:
+  allow-sprint-jumping-when-using-elytra: false  # evitar velocidad abusiva con elytra
+  allow-building-on-ghostblocks: true
+  distance-to-check-if-ghostblocks: 3
+
+debug-pipeline-on-join: false
+experimental-checks: true  # activa detecciones más avanzadas
+mitigate-autoblock: true
+mitigate-desync-noslow: true
+
+packet-spam-threshold: 80  # más bajo para bots/spam más estrictamente
+max-ping-out-of-flying: 800
+max-ping-firework-boost: 800
+
+config-version: 9

@@ -1,139 +1,21 @@
-# Configuración general del plugin Orebfuscator
+version: 4
 general:
   checkForUpdates: true
   updateOnBlockDamage: true
   bypassNotification: true
-  ignoreSpectator: false
+  ignoreSpectator: true
   updateRadius: 2
-
-# Configuración de obfuscación de bloques en el Overworld
-obfuscation:
-  obfuscation-overworld:
-    enabled: true
-    minY: -2032
-    maxY: 2031
-    worlds:
-      - world
-    layerObfuscation: true  # Asegura que los bloques no se vean con capas falsas
-    hiddenBlocks:
-      - minecraft:emerald_ore
-      - minecraft:deepslate_emerald_ore
-      - minecraft:diamond_ore
-      - minecraft:deepslate_diamond_ore
-      - minecraft:gold_ore
-      - minecraft:deepslate_gold_ore
-      - minecraft:raw_gold_block
-      - minecraft:iron_ore
-      - minecraft:deepslate_iron_ore
-      - minecraft:raw_iron_block
-      - minecraft:coal_ore
-      - minecraft:deepslate_coal_ore
-      - minecraft:lapis_ore
-      - minecraft:deepslate_lapis_ore
-      - minecraft:redstone_ore
-      - minecraft:deepslate_redstone_ore
-      - minecraft:copper_ore
-      - minecraft:raw_copper_block
-      - minecraft:deepslate_copper_ore
-      - minecraft:stone
-      - minecraft:deepslate
-      - minecraft:chest
-      - minecraft:ender_chest
-      - minecraft:trapped_chest
-      - minecraft:shulker_box
-      - minecraft:white_shulker_box
-      - minecraft:orange_shulker_box
-      - minecraft:magenta_shulker_box
-      - minecraft:light_blue_shulker_box
-      - minecraft:yellow_shulker_box
-      - minecraft:lime_shulker_box
-      - minecraft:pink_shulker_box
-      - minecraft:gray_shulker_box
-      - minecraft:light_gray_shulker_box
-      - minecraft:cyan_shulker_box
-      - minecraft:purple_shulker_box
-      - minecraft:blue_shulker_box
-      - minecraft:brown_shulker_box
-      - minecraft:green_shulker_box
-      - minecraft:red_shulker_box
-      - minecraft:black_shulker_box
-      - minecraft:bedrock
-
-# Configuración de obfuscación en el Nether
-  obfuscation-nether:
-    enabled: true
-    minY: -2032
-    maxY: 2031
-    worlds:
-      - world_nether
-    layerObfuscation: true
-    hiddenBlocks:
-      - minecraft:netherrack
-      - minecraft:nether_quartz_ore
-      - minecraft:chest
-      - minecraft:ender_chest
-      - minecraft:trapped_chest
-      - minecraft:shulker_box
-      - minecraft:ancient_debris
-      - minecraft:nether_gold_ore
-      - minecraft:basalt
-      - minecraft:soul_sand
-      - minecraft:soul_soil
-      - minecraft:bedrock
-
-# Configuración de obfuscación en el End
-  obfuscation-end:
-    enabled: true
-    minY: -2032
-    maxY: 2031
-    worlds:
-      - world_the_end
-    layerObfuscation: true
-    hiddenBlocks:
-      - minecraft:chest
-      - minecraft:ender_chest
-      - minecraft:trapped_chest
-      - minecraft:shulker_box
-      - minecraft:ancient_debris
-      - minecraft:end_stone
-      - minecraft:end_stone_bricks
-      - minecraft:obsidian
-      - minecraft:purpur_block
-      - minecraft:bedrock
-
-# Configuración de verificación de proximidad (proximity check)
-proximity:
-  proximity-overworld:
-    enabled: true
-    worlds:
-      - world
-    distance: 24
-    frustumCulling:
-      enabled: true
-      minDistance: 3.0
-      fov: 80.0
-    rayCastCheck:
-      enabled: false
-      onlyCheckCenter: false
-    useBlockBelow: true
-    hiddenBlocks:
-      minecraft:diamond_ore: {}
-      minecraft:deepslate_diamond_ore: {}
-      minecraft:emerald_ore: {}
-      minecraft:deepslate_emerald_ore: {}
-      minecraft:chest: {}
-      minecraft:ender_chest: {}
-      minecraft:trapped_chest: {}
-      minecraft:shulker_box: {}
-      minecraft:white_shulker_box: {}
-      minecraft:orange_shulker_box: {}
-      minecraft:magenta_shulker_box: {}
-      minecraft:light_blue_shulker_box: {}
-      minecraft:yellow_shulker_box: {}
-      minecraft:lime_shulker_box: {}
-      minecraft:pink_shulker_box: {}
-
-# Configuración de cache para mejorar el rendimiento
+advanced:
+  verbose: false
+  obfuscation:
+    threads: -1
+    timeout: 10000
+    maxMillisecondsPerTick: 10
+  proximity:
+    threads: -1
+    defaultBucketSize: 50
+    threadCheckInterval: 50
+    playerCheckInterval: 5000
 cache:
   enabled: true
   memoryCache:
@@ -145,3 +27,70 @@ cache:
     maximumOpenFiles: 256
     deleteFilesAfterAccess: 172800000
     maximumTaskQueueSize: 32768
+obfuscation:
+  obfuscation-overworld:
+    enabled: true
+    minY: -64
+    maxY: 319
+    worlds:
+      - world
+    layerObfuscation: false
+    hiddenBlocks:
+      - minecraft:diamond_ore
+      - minecraft:deepslate_diamond_ore
+      - minecraft:emerald_ore
+      - minecraft:deepslate_emerald_ore
+      - minecraft:gold_ore
+      - minecraft:deepslate_gold_ore
+      - minecraft:iron_ore
+      - minecraft:deepslate_iron_ore
+      - minecraft:coal_ore
+      - minecraft:deepslate_coal_ore
+      - minecraft:lapis_ore
+      - minecraft:deepslate_lapis_ore
+      - minecraft:redstone_ore
+      - minecraft:deepslate_redstone_ore
+      - minecraft:copper_ore
+      - minecraft:deepslate_copper_ore
+    randomBlocks: {}
+  obfuscation-nether:
+    enabled: true
+    minY: 0
+    maxY: 127
+    worlds:
+      - world_nether
+    layerObfuscation: false
+    hiddenBlocks:
+      - minecraft:ancient_debris
+      - minecraft:nether_gold_ore
+      - minecraft:nether_quartz_ore
+    randomBlocks: {}
+  obfuscation-end:
+    enabled: false
+    minY: 0
+    maxY: 256
+    worlds:
+      - world_the_end
+    layerObfuscation: false
+    hiddenBlocks: []
+    randomBlocks: {}
+proximity:
+  proximity-overworld:
+    enabled: true
+    minY: -64
+    maxY: 319
+    worlds:
+      - world
+    distance: 16
+    frustumCulling:
+      enabled: true
+      minDistance: 3.0
+      fov: 80.0
+    rayCastCheck:
+      enabled: true
+      onlyCheckCenter: true
+    useBlockBelow: true
+    hiddenBlocks: {}
+    randomBlocks: {}
+  proximity-nether:
+    enabled

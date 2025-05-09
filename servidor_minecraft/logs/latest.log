@@ -1945,3 +1945,1604 @@ java.lang.RuntimeException: config is not up to date, please delete your config
 [21:38:59] [User Authenticator #5/INFO]: UUID of player svelnxx is 4b3aaadf-1c71-30f7-9f86-b1a342a8db24
 [21:39:00] [Server thread/INFO]: svelnxx[/127.217.179.14:55155] logged in with entity id 3602 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
 [21:39:03] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user svelnxx has successfully logged in.
+[21:40:59] [Server thread/INFO]: svelnxx issued server command: /reload confirm
+[21:40:59] [Server thread/INFO]: svelnxx: Please note that this command is not supported and may cause issues when using some plugins.
+[21:40:59] [Server thread/INFO]: svelnxx: If you encounter any issues please use the /stop command to restart your server.
+[21:40:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:40:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:40:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:40:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:40:59] [Server thread/INFO]: [GUIAdminToolsFree] Disabling GUIAdminToolsFree v3.0.6
+[21:40:59] [Server thread/INFO]: [GUIAdminToolsFree] [STDOUT] Stop...
+[21:40:59] [Server thread/WARN]: Nag author(s): '[]' of 'GUIAdminToolsFree v3.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:40:59] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v6.1.31
+[21:40:59] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
+[21:40:59] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
+[21:41:01] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
+[21:41:01] [Server thread/INFO]: [WorldGuardExtraFlags] Disabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[21:41:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
+[21:41:01] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.5
+[21:41:01] [Server thread/INFO]: [SetSpawn] Disabled!
+[21:41:01] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[21:41:01] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[21:41:01] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.16
+[21:41:01] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.22
+[21:41:01] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[21:41:01] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[21:41:01] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:41:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
+[21:41:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:41:01] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:41:01] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:41:01] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-742
+[21:41:01] [Server thread/ERROR]: *****************************************************************
+[21:41:01] [Server thread/ERROR]: *** WARNING                                                   ***
+[21:41:01] [Server thread/ERROR]: *** RELOADING THE SERVER WHILE PROTOCOLLIB IS ENABLED MIGHT   ***
+[21:41:01] [Server thread/ERROR]: *** LEAD TO UNEXPECTED ERRORS!                                ***
+[21:41:01] [Server thread/ERROR]: ***                                                           ***
+[21:41:01] [Server thread/ERROR]: *** Consider cleanly restarting your server if you encounter  ***
+[21:41:01] [Server thread/ERROR]: *** any issues related to ProtocolLib before opening an issue ***
+[21:41:01] [Server thread/ERROR]: *** on GitHub!                                                ***
+[21:41:01] [Server thread/ERROR]: *****************************************************************
+[21:41:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[21:41:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:41:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:41:01] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.12-beta-02+ac380ad
+[21:41:01] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:41:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[21:41:01] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[21:41:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:41:02] [Server thread/INFO]: Loaded 1337 recipes
+[21:41:02] [Server thread/INFO]: Loaded 1448 advancements
+[21:41:02] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:41:02] [Paper Async Command Builder Thread Pool - 10/ERROR]: Caught previously unhandled exception :
+[21:41:02] [Paper Async Command Builder Thread Pool - 10/ERROR]: Paper Async Command Builder Thread Pool - 10
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:41:02] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/grimac-2.3.69.jar'...
+[21:41:04] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/grimac-2.3.69.jar' in 2071ms.
+[21:41:04] [Server thread/INFO]: [PluginInitializerManager] Initialized 20 plugins
+[21:41:04] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+ - Chunky (1.4.36), Essentials (2.21.0), GUIAdminToolsFree (3.0.6), Geyser-Spigot (2.7.1-SNAPSHOT), GrimAC (2.3.69), LuckPerms (5.4.158), Matrix (7.4.18), Multiverse-Core (4.3.16), Orebfuscator (5.5.3), ProtocolLib (5.4.0-SNAPSHOT-742), SetSpawn (5.5), SkinsRestorer (15.6.2), ViaVersion (5.3.2), Vulcan (2.8.3), Vulcan (2.9.5), WorldEdit (7.3.12-beta-02+ac380ad), WorldGuard (7.0.12+829a4a4), WorldGuardExtraFlags (4.2.4-SNAPSHOT), nAntiBot (6.1.31), nLogin (10.4.22)
+[21:41:04] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'Vulcan' for files 'plugins/.paper-remapped/Vulcan-2.9.5.jar' and 'plugins/.paper-remapped/Vulcan-2.8.3.jar' in 'plugins/.paper-remapped'
+[21:41:04] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/Vulcan-2.9.5.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [packetevents]. Please download and install these plugins to run 'Vulcan'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:561) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1146) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:41:05] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
+[21:41:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[21:41:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[21:41:05] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, we're going to kick all the players... because otherwise we'll crash because of ProtocolLib.
+[21:41:05] [Server thread/INFO]: svelnxx lost connection: Server reload, please rejoin!
+[21:41:05] [Server thread/INFO]: svelnxx left the game
+[21:41:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:41:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:41:06] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.12-beta-02+ac380ad
+[21:41:06] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3031ffca]
+[21:41:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
+[21:41:06] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[21:41:07] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:41:07] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:41:07] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-742
+[21:41:07] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.3) has not yet been tested! Proceed with caution.
+[21:41:07] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[21:41:07] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[21:41:07] [Server thread/INFO]: [Matrix] Loading server plugin Matrix v7.4.18
+[21:41:07] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
+[21:41:07] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
+[21:41:07] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.5
+[21:41:07] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.3
+[21:41:07] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[21:41:07] [Server thread/INFO]: [WorldGuardExtraFlags] Loading server plugin WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[21:41:07] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[21:41:07] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.31
+[21:41:07] [Server thread/INFO]: [GUIAdminToolsFree] Loading server plugin GUIAdminToolsFree v3.0.6
+[21:41:07] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
+[21:41:07] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[21:41:10] [Server thread/INFO]: [packetevents] Late injection detected, we missed packets so some functionality may break!
+[21:41:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:41:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.12-beta-02+ac380ad
+[21:41:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:41:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:41:10] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:41:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[21:41:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
+[21:41:11] [Server thread/INFO]:         __    
+[21:41:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
+[21:41:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:41:11] [Server thread/INFO]: 
+[21:41:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:41:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:41:11] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:41:11] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:41:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1041ms)
+[21:41:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-742
+[21:41:12] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
+[21:41:12] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.30s)
+[21:41:12] [Server thread/INFO]:           __             _       
+[21:41:12] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[21:41:12] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[21:41:12] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[21:41:12] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[21:41:12] [Server thread/INFO]:                   |___/            
+[21:41:12] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[21:41:12] [Server thread/INFO]:  
+[21:41:13] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[21:41:13] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[21:41:13] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[21:41:13] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[21:41:13] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:41:13] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.31
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:41:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:41:14] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.34s)
+[21:41:14] [Server thread/INFO]:           _         _   _   ___       _   
+[21:41:14] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[21:41:14] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[21:41:14] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[21:41:14] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[21:41:14] [Server thread/INFO]:                                          
+[21:41:14] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.31
+[21:41:14] [Server thread/INFO]: 
+[21:41:14] [Folia Async Scheduler Thread #1/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[21:41:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[21:41:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[21:41:14] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[21:41:14] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:41:14] [Server thread/INFO]: [WorldGuard] (1) TNT ignition is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (1) Lighters are PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (1) Lava fire is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (1) Fire spread is UNRESTRICTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world '1'
+[21:41:14] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[21:41:14] [Server thread/INFO]: [WorldGuard] (Parkour) TNT ignition is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (Parkour) Lighters are PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (Parkour) Lava fire is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (Parkour) Fire spread is UNRESTRICTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Parkour'
+[21:41:14] [Server thread/INFO]: [WorldGuard] (colmenas) TNT ignition is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (colmenas) Lighters are PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (colmenas) Lava fire is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (colmenas) Fire spread is UNRESTRICTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'colmenas'
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:41:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[21:41:15] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[21:41:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:41:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[21:41:15] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[21:41:15] [Server thread/INFO]: [Essentials] Using locale en
+[21:41:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:41:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:41:15] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[21:41:15] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[21:41:15] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:41:15] [Server thread/INFO]: [Matrix] Enabling Matrix v7.4.18
+[21:41:15] [Server thread/INFO]: [Matrix] [STDOUT] [Spigotunlocked.com] - Wqfire
+[21:41:15] [Server thread/WARN]: Nag author(s): '[RE]' of 'Matrix v7.4.18' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:41:15] [Server thread/INFO]: *   __  __       _        _
+[21:41:15] [Server thread/INFO]: *  |  \/  |     | |      (_)
+[21:41:15] [Server thread/INFO]: *  | \  / | __ _| |_ _ __ ___  __
+[21:41:15] [Server thread/INFO]: *  | |\/| |/ _` | __| '__| \ \/ /
+[21:41:15] [Server thread/INFO]: *  | |  | | (_| | |_| |  | |>  <
+[21:41:15] [Server thread/INFO]: *  |_|  |_|\__,_|\__|_|  |_/_/\_\
+[21:41:15] [Server thread/INFO]: *  
+[21:41:15] [Server thread/INFO]: *  Cracked by LuckerCracker
+[21:41:15] [Server thread/INFO]: * Matrix AntiCheat v7.4.18 | 1.21.3-63-4190ee7 (MC: 1.21.3)
+[21:41:16] [Server thread/INFO]: [Matrix] Checking Environment...
+[21:41:16] [Server thread/INFO]: [Matrix] Passed all environment checks
+[21:41:16] [Server thread/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[21:41:16] [Server thread/WARN]: 	at Matrix_7.4.18.jar//me.rerere.matrix.internal.da.CA(Unknown Source)
+[21:41:16] [Server thread/WARN]: 	at Matrix_7.4.18.jar//me.rerere.matrix.internal.da.<clinit>(Unknown Source)
+[21:41:16] [Server thread/WARN]: 	at Matrix_7.4.18.jar//me.rerere.matrix.internal.te.KG(Unknown Source)
+[21:41:16] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[21:41:16] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[21:41:16] [Server thread/WARN]: 	at Matrix_7.4.18.jar//me.rerere.matrix.Matrix.onEnable(Unknown Source)
+[21:41:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[21:41:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[21:41:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[21:41:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[21:41:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[21:41:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[21:41:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148)
+[21:41:16] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+[21:41:16] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[21:41:16] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[21:41:16] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344)
+[21:41:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[21:41:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:41:16] [Server thread/ERROR]: Error occurred while enabling Matrix v7.4.18 (Is it up to date?)
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.da.CA(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.te.KG(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.Matrix.onEnable(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:41:16] [Server thread/INFO]: [Matrix] Disabling Matrix v7.4.18
+[21:41:16] [Server thread/ERROR]: Error occurred while disabling Matrix v7.4.18
+java.lang.ExceptionInInitializerError: null
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.yg.<clinit>(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.forName(AbstractDefaultRulesReflectionProxy.java:68) ~[reflection-rewriter-runtime-0.0.3.jar:?]
+	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.m8.b(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.m8.d(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.Matrix.onDisable(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.da.CA(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.x.<clinit>(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	... 48 more
+[21:41:16] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
+[21:41:16] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[21:41:16] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[21:41:16] [Server thread/INFO]: [Multiverse-Core] 7 - World(s) loaded.
+[21:41:16] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[21:41:16] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[21:41:16] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.5
+[21:41:16] [Server thread/INFO]: [SetSpawn] Enabled!
+[21:41:16] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.3
+[21:41:16] [Server thread/ERROR]: [Orebfuscator] An error occurred while enabling plugin
+java.lang.RuntimeException: config is not up to date, please delete your config
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.config.OrebfuscatorConfig.deserialize(OrebfuscatorConfig.java:116) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.config.OrebfuscatorConfig.load(OrebfuscatorConfig.java:66) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.config.OrebfuscatorConfig.<init>(OrebfuscatorConfig.java:58) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.Orebfuscator.onEnable(Orebfuscator.java:61) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:41:16] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.5.3
+[21:41:16] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlySpeedFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[21:41:16] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[21:41:16] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[21:41:16] [Server thread/INFO]: [GUIAdminToolsFree] Enabling GUIAdminToolsFree v3.0.6
+[21:41:16] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[21:41:16] [Server thread/INFO]:  
+[21:41:16] [Server thread/INFO]: VERSION: 3.0.6
+[21:41:16] [Server thread/INFO]:  
+[21:41:16] [Server thread/INFO]: LOADING ALL SERVICES...
+[21:41:16] [Server thread/INFO]: LOADED ALL SERVICES
+[21:41:16] [Server thread/INFO]:  
+[21:41:16] [Server thread/INFO]: LOADED METRICS
+[21:41:16] [Server thread/INFO]:  
+[21:41:16] [Server thread/INFO]: LOADING SOFT DEPENDENCIES...
+[21:41:16] [Server thread/INFO]: NO JoinLeaveManager
+[21:41:16] [Server thread/INFO]:  
+[21:41:16] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[21:41:16] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
+[21:41:16] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[21:41:16] [Server thread/INFO]: [GrimAC] Registering packets...
+[21:41:16] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[21:41:16] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[21:41:17] [Server thread/INFO]: Grim Version: 2.3.69
+[21:41:17] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
+[21:41:17] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
+[21:41:17] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
+[21:41:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:41:17] [Server thread/INFO]: [Geyser-Spigot] 
+[21:41:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b825 (git-master-503087a)
+[21:41:17] [Server thread/INFO]: [Geyser-Spigot] 
+[21:41:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:41:20] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[21:41:20] [Server thread/INFO]: [Geyser-Spigot] Done (3.087s)! Run /geyser help for help!
+[21:41:20] [Server thread/INFO]: svelnxx: Reload complete.
+[21:41:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20803ms or 416 ticks behind
+[21:41:20] [Craft Scheduler Thread - 42 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:41:20] [Craft Scheduler Thread - 31 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:41:20] [Craft Scheduler Thread - 43 - GUIAdminToolsFree/INFO]: There is not a new update available.
+[21:41:20] [Craft Scheduler Thread - 42 - GrimAC/INFO]: New GrimAC version found! Version 2.3.71 is available to be downloaded here: https://modrinth.com/plugin/grimac
+[21:41:21] [User Authenticator #6/INFO]: UUID of player svelnxx is 4b3aaadf-1c71-30f7-9f86-b1a342a8db24
+[21:41:23] [Server thread/INFO]: svelnxx[/127.217.179.14:34391] logged in with entity id 3994 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
+[21:41:23] [pool-368-thread-1/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 46, threads = 4, took 9.04s)
+[21:41:33] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user svelnxx has successfully logged in.
+[21:41:38] [Server thread/INFO]: svelnxx issued server command: /plugins
+[21:49:53] [Server thread/INFO]: svelnxx issued server command: /reload confirm
+[21:49:53] [Server thread/INFO]: svelnxx: Please note that this command is not supported and may cause issues when using some plugins.
+[21:49:53] [Server thread/INFO]: svelnxx: If you encounter any issues please use the /stop command to restart your server.
+[21:49:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:49:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:49:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:49:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:49:53] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.69
+[21:49:53] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[21:49:53] [Server thread/INFO]: [GUIAdminToolsFree] Disabling GUIAdminToolsFree v3.0.6
+[21:49:53] [Server thread/INFO]: [GUIAdminToolsFree] [STDOUT] Stop...
+[21:49:53] [Server thread/WARN]: Nag author(s): '[]' of 'GUIAdminToolsFree v3.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:49:53] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v6.1.31
+[21:49:53] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
+[21:49:53] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
+[21:49:55] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
+[21:49:55] [Server thread/INFO]: [WorldGuardExtraFlags] Disabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[21:49:55] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
+[21:49:55] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.5
+[21:49:55] [Server thread/INFO]: [SetSpawn] Disabled!
+[21:49:55] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.16
+[21:49:55] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.22
+[21:49:55] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[21:49:55] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[21:49:55] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[21:49:55] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[21:49:55] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:49:55] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-742
+[21:49:55] [Server thread/ERROR]: *****************************************************************
+[21:49:55] [Server thread/ERROR]: *** WARNING                                                   ***
+[21:49:55] [Server thread/ERROR]: *** RELOADING THE SERVER WHILE PROTOCOLLIB IS ENABLED MIGHT   ***
+[21:49:55] [Server thread/ERROR]: *** LEAD TO UNEXPECTED ERRORS!                                ***
+[21:49:55] [Server thread/ERROR]: ***                                                           ***
+[21:49:55] [Server thread/ERROR]: *** Consider cleanly restarting your server if you encounter  ***
+[21:49:55] [Server thread/ERROR]: *** any issues related to ProtocolLib before opening an issue ***
+[21:49:55] [Server thread/ERROR]: *** on GitHub!                                                ***
+[21:49:55] [Server thread/ERROR]: *****************************************************************
+[21:49:55] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[21:49:55] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:49:55] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:49:55] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
+[21:49:55] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:49:55] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:49:55] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:49:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.12-beta-02+ac380ad
+[21:49:55] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:49:55] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[21:49:55] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[21:49:55] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:49:55] [Server thread/INFO]: Loaded 1337 recipes
+[21:49:55] [Server thread/INFO]: Loaded 1448 advancements
+[21:49:55] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:49:55] [Server thread/INFO]: [PluginInitializerManager] Initialized 20 plugins
+[21:49:55] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+ - Chunky (1.4.36), Essentials (2.21.0), GUIAdminToolsFree (3.0.6), Geyser-Spigot (2.7.1-SNAPSHOT), GrimAC (2.3.69), LuckPerms (5.4.158), Matrix (7.4.18), Multiverse-Core (4.3.16), Orebfuscator (5.5.3), ProtocolLib (5.4.0-SNAPSHOT-742), SetSpawn (5.5), SkinsRestorer (15.6.2), ViaVersion (5.3.2), Vulcan (2.8.3), Vulcan (2.9.5), WorldEdit (7.3.12-beta-02+ac380ad), WorldGuard (7.0.12+829a4a4), WorldGuardExtraFlags (4.2.4-SNAPSHOT), nAntiBot (6.1.31), nLogin (10.4.22)
+[21:49:55] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'Vulcan' for files 'plugins/.paper-remapped/Vulcan-2.9.5.jar' and 'plugins/.paper-remapped/Vulcan-2.8.3.jar' in 'plugins/.paper-remapped'
+[21:49:55] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/Vulcan-2.9.5.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [packetevents]. Please download and install these plugins to run 'Vulcan'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:561) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1146) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:49:56] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
+[21:49:57] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[21:49:57] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[21:49:57] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, we're going to kick all the players... because otherwise we'll crash because of ProtocolLib.
+[21:49:57] [Server thread/INFO]: svelnxx lost connection: Server reload, please rejoin!
+[21:49:57] [Server thread/INFO]: svelnxx left the game
+[21:49:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:49:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:49:57] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.12-beta-02+ac380ad
+[21:49:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@584d6b60]
+[21:49:58] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
+[21:49:58] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[21:49:58] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:49:58] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:49:58] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-742
+[21:49:58] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.3) has not yet been tested! Proceed with caution.
+[21:49:58] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[21:49:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[21:49:58] [Server thread/INFO]: [Matrix] Loading server plugin Matrix v7.4.18
+[21:49:58] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
+[21:49:59] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
+[21:49:59] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.5
+[21:49:59] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.3
+[21:49:59] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[21:49:59] [Server thread/INFO]: [WorldGuardExtraFlags] Loading server plugin WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[21:49:59] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[21:49:59] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.31
+[21:49:59] [Server thread/INFO]: [GUIAdminToolsFree] Loading server plugin GUIAdminToolsFree v3.0.6
+[21:49:59] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
+[21:49:59] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[21:50:01] [Server thread/INFO]: [packetevents] Late injection detected, we missed packets so some functionality may break!
+[21:50:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:50:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.12-beta-02+ac380ad
+[21:50:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:50:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:50:01] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:50:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[21:50:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
+[21:50:02] [Server thread/INFO]:         __    
+[21:50:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
+[21:50:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:50:02] [Server thread/INFO]: 
+[21:50:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:50:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:50:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:50:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:50:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 879ms)
+[21:50:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-742
+[21:50:03] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
+[21:50:03] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.37s)
+[21:50:03] [Server thread/INFO]:           __             _       
+[21:50:03] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[21:50:03] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[21:50:03] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[21:50:03] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[21:50:03] [Server thread/INFO]:                   |___/            
+[21:50:03] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[21:50:03] [Server thread/INFO]:  
+[21:50:04] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[21:50:04] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[21:50:04] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[21:50:04] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[21:50:05] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:50:05] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.31
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:50:05] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.31s)
+[21:50:05] [Server thread/INFO]:           _         _   _   ___       _   
+[21:50:05] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[21:50:05] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[21:50:05] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[21:50:05] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[21:50:05] [Server thread/INFO]:                                          
+[21:50:05] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.31
+[21:50:05] [Server thread/INFO]: 
+[21:50:05] [Folia Async Scheduler Thread #1/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[21:50:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[21:50:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[21:50:05] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[21:50:06] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:50:06] [Server thread/INFO]: [WorldGuard] (1) TNT ignition is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (1) Lighters are PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (1) Lava fire is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (1) Fire spread is UNRESTRICTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world '1'
+[21:50:06] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[21:50:06] [Server thread/INFO]: [WorldGuard] (Parkour) TNT ignition is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (Parkour) Lighters are PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (Parkour) Lava fire is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (Parkour) Fire spread is UNRESTRICTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Parkour'
+[21:50:06] [Server thread/INFO]: [WorldGuard] (colmenas) TNT ignition is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (colmenas) Lighters are PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (colmenas) Lava fire is PERMITTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] (colmenas) Fire spread is UNRESTRICTED.
+[21:50:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'colmenas'
+[21:50:06] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:50:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[21:50:06] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[21:50:06] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:50:06] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:50:06] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[21:50:06] [Server thread/INFO]: [Essentials] Using locale en
+[21:50:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:50:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:50:07] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[21:50:07] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[21:50:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:50:07] [Server thread/INFO]: [Matrix] Enabling Matrix v7.4.18
+[21:50:07] [Server thread/INFO]: [Matrix] [STDOUT] [Spigotunlocked.com] - Wqfire
+[21:50:07] [Server thread/WARN]: Nag author(s): '[RE]' of 'Matrix v7.4.18' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:50:07] [Server thread/INFO]: *   __  __       _        _
+[21:50:07] [Server thread/INFO]: *  |  \/  |     | |      (_)
+[21:50:07] [Server thread/INFO]: *  | \  / | __ _| |_ _ __ ___  __
+[21:50:07] [Server thread/INFO]: *  | |\/| |/ _` | __| '__| \ \/ /
+[21:50:07] [Server thread/INFO]: *  | |  | | (_| | |_| |  | |>  <
+[21:50:07] [Server thread/INFO]: *  |_|  |_|\__,_|\__|_|  |_/_/\_\
+[21:50:07] [Server thread/INFO]: *  
+[21:50:07] [Server thread/INFO]: *  Cracked by LuckerCracker
+[21:50:07] [Server thread/INFO]: * Matrix AntiCheat v7.4.18 | 1.21.3-63-4190ee7 (MC: 1.21.3)
+[21:50:07] [Server thread/INFO]: [Matrix] Checking Environment...
+[21:50:07] [Server thread/INFO]: [Matrix] Passed all environment checks
+[21:50:07] [Server thread/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[21:50:07] [Server thread/WARN]: 	at Matrix_7.4.18.jar//me.rerere.matrix.internal.da.CA(Unknown Source)
+[21:50:07] [Server thread/WARN]: 	at Matrix_7.4.18.jar//me.rerere.matrix.internal.da.<clinit>(Unknown Source)
+[21:50:07] [Server thread/WARN]: 	at Matrix_7.4.18.jar//me.rerere.matrix.internal.te.KG(Unknown Source)
+[21:50:07] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[21:50:07] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[21:50:07] [Server thread/WARN]: 	at Matrix_7.4.18.jar//me.rerere.matrix.Matrix.onEnable(Unknown Source)
+[21:50:07] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[21:50:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[21:50:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[21:50:07] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[21:50:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[21:50:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[21:50:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148)
+[21:50:07] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+[21:50:07] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[21:50:07] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[21:50:07] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344)
+[21:50:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[21:50:07] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:50:07] [Server thread/ERROR]: Error occurred while enabling Matrix v7.4.18 (Is it up to date?)
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.da.CA(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.te.KG(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.Matrix.onEnable(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:50:07] [Server thread/INFO]: [Matrix] Disabling Matrix v7.4.18
+[21:50:07] [Server thread/ERROR]: Error occurred while disabling Matrix v7.4.18
+java.lang.ExceptionInInitializerError: null
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.yg.<clinit>(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.forName(AbstractDefaultRulesReflectionProxy.java:68) ~[reflection-rewriter-runtime-0.0.3.jar:?]
+	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.m8.b(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.m8.d(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.Matrix.onDisable(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.da.CA(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at Matrix_7.4.18.jar/me.rerere.matrix.internal.x.<clinit>(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	... 48 more
+[21:50:07] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
+[21:50:07] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[21:50:07] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[21:50:07] [Server thread/INFO]: [Multiverse-Core] 7 - World(s) loaded.
+[21:50:07] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[21:50:07] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[21:50:07] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.5
+[21:50:07] [Server thread/INFO]: [SetSpawn] Enabled!
+[21:50:07] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.3
+[21:50:07] [Server thread/ERROR]: [Orebfuscator] An error occurred while enabling plugin
+java.lang.NullPointerException: Cannot invoke "org.bukkit.configuration.ConfigurationSection.getName()" because "section" is null
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.config.OrebfuscatorProximityConfig.<init>(OrebfuscatorProximityConfig.java:36) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.config.OrebfuscatorConfig.deserialize(OrebfuscatorConfig.java:176) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.config.OrebfuscatorConfig.load(OrebfuscatorConfig.java:66) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.config.OrebfuscatorConfig.<init>(OrebfuscatorConfig.java:58) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at orebfuscator-plugin-5.5.3.jar/net.imprex.orebfuscator.Orebfuscator.onEnable(Orebfuscator.java:61) ~[orebfuscator-plugin-5.5.3.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1038) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:50:07] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.5.3
+[21:50:07] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.2.4-SNAPSHOT
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlySpeedFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[21:50:07] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[21:50:07] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[21:50:07] [Server thread/INFO]: [GUIAdminToolsFree] Enabling GUIAdminToolsFree v3.0.6
+[21:50:07] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[21:50:07] [Server thread/INFO]:  
+[21:50:07] [Server thread/INFO]: VERSION: 3.0.6
+[21:50:07] [Server thread/INFO]:  
+[21:50:07] [Server thread/INFO]: LOADING ALL SERVICES...
+[21:50:08] [Server thread/INFO]: LOADED ALL SERVICES
+[21:50:08] [Server thread/INFO]:  
+[21:50:08] [Server thread/INFO]: LOADED METRICS
+[21:50:08] [Server thread/INFO]:  
+[21:50:08] [Server thread/INFO]: LOADING SOFT DEPENDENCIES...
+[21:50:08] [Server thread/INFO]: NO JoinLeaveManager
+[21:50:08] [Server thread/INFO]:  
+[21:50:08] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[21:50:08] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
+[21:50:08] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[21:50:08] [Server thread/INFO]: [GrimAC] Registering packets...
+[21:50:08] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[21:50:08] [Server thread/WARN]: [GrimAC] Reach.enable-post-packet=true but paper.explicit-flush=false, add "-Dpaper.explicit-flush=true" to your server's startup flags for fully functional extra reach accuracy.
+[21:50:08] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[21:50:08] [Server thread/INFO]: Grim Version: 2.3.69
+[21:50:08] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
+[21:50:08] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
+[21:50:08] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
+[21:50:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:50:08] [Server thread/INFO]: [Geyser-Spigot] 
+[21:50:08] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b825 (git-master-503087a)
+[21:50:08] [Server thread/INFO]: [Geyser-Spigot] 
+[21:50:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:50:11] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[21:50:11] [Server thread/INFO]: [Geyser-Spigot] Done (3.112s)! Run /geyser help for help!
+[21:50:11] [Server thread/INFO]: svelnxx: Reload complete.
+[21:50:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18400ms or 368 ticks behind
+[21:50:11] [Craft Scheduler Thread - 61 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:50:11] [Craft Scheduler Thread - 58 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:50:11] [Craft Scheduler Thread - 61 - GrimAC/INFO]: New GrimAC version found! Version 2.3.71 is available to be downloaded here: https://modrinth.com/plugin/grimac
+[21:50:11] [Craft Scheduler Thread - 63 - GUIAdminToolsFree/INFO]: There is not a new update available.
+[21:50:13] [Geyser Spigot connection thread-42-2/WARN]: [io.netty.channel.AbstractChannelHandlerContext] An exception 'java.lang.IllegalStateException: zip file closed' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: zip file closed
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:107) ~[grimac-2.3.69.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.platform.spigot.GeyserSpigotCompressionDisabler.write(GeyserSpigotCompressionDisabler.java:90) ~[Geyser-Spigot.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.Connection$2.write(Connection.java:762) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.network.netty.ChannelWrapper.writeAndFlush(ChannelWrapper.java:219) ~[Geyser-Spigot.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.lambda$writeAndFlush$1(NettyChannelProxy.java:223) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.lambda$processPacketOutbound$2(NettyChannelProxy.java:266) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.processPacketOutbound(NettyChannelProxy.java:268) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:223) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[ProtocolLib.jar:?]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:513) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.sendPacket(Connection.java:495) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.send(Connection.java:457) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.send(Connection.java:443) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.send(Connection.java:439) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.destroystokyo.paper.network.StandardPaperServerListPingEventImpl.processRequest(StandardPaperServerListPingEventImpl.java:102) ~[paper-1.21.3.jar:?]
+	at net.minecraft.server.network.ServerStatusPacketListenerImpl.handleStatusRequest(ServerStatusPacketListenerImpl.java:157) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:22) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:13) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.genericsFtw(Connection.java:325) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:306) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:70) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:42) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundProtocolReader.channelRead(InboundProtocolReader.java:25) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.local.LocalChannel.doBeginRead(LocalChannel.java:322) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.beginRead(AbstractChannel.java:834) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.read(DefaultChannelPipeline.java:1362) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:814) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.read(FlowControlHandler.java:144) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:837) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:814) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.read(DefaultChannelPipeline.java:1004) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.read(AbstractChannel.java:290) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelConfig.setAutoRead(DefaultChannelConfig.java:341) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.UnconfiguredPipelineHandler.lambda$setupInboundHandler$0(UnconfiguredPipelineHandler.java:23) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.UnconfiguredPipelineHandler$Inbound.write(UnconfiguredPipelineHandler.java:48) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:102) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:102) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:107) ~[grimac-2.3.69.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.platform.spigot.GeyserSpigotCompressionDisabler.write(GeyserSpigotCompressionDisabler.java:90) ~[Geyser-Spigot.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.Connection$2.write(Connection.java:762) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.network.netty.ChannelWrapper.writeAndFlush(ChannelWrapper.java:219) ~[Geyser-Spigot.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[ProtocolLib.jar:?]
+	at net.minecraft.network.Connection.setupInboundProtocol(Connection.java:376) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerHandshakePacketListenerImpl.handleIntention(ServerHandshakePacketListenerImpl.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.handshake.ClientIntentionPacket.handle(ClientIntentionPacket.java:32) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.handshake.ClientIntentionPacket.handle(ClientIntentionPacket.java:9) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.genericsFtw(Connection.java:325) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:306) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:70) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.lambda$processInboundInternal$5(NettyChannelInjector.java:462) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.ensureInEventLoop(NettyChannelInjector.java:605) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processInboundInternal(NettyChannelInjector.java:462) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processInbound(NettyChannelInjector.java:439) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:47) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:534) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundProtocolReader.channelRead(InboundProtocolReader.java:25) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:114) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.local.LocalChannel.doBeginRead(LocalChannel.java:322) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.beginRead(AbstractChannel.java:834) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.read(DefaultChannelPipeline.java:1362) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:814) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.read(FlowControlHandler.java:144) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:837) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:814) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.read(DefaultChannelPipeline.java:1004) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.read(AbstractChannel.java:290) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.network.netty.ChannelWrapper.read(ChannelWrapper.java:198) ~[Geyser-Spigot.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.readIfIsAutoRead(DefaultChannelPipeline.java:1422) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelActive(DefaultChannelPipeline.java:1400) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelActive(AbstractChannelHandlerContext.java:258) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelActive(AbstractChannelHandlerContext.java:238) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:895) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:522) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:517) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.packettype.PacketType.getById(PacketType.java:165) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.ProtocolPacketEvent.<init>(ProtocolPacketEvent.java:83) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketSendEvent.<init>(PacketSendEvent.java:37) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.simple.PacketHandshakeSendEvent.<init>(PacketHandshakeSendEvent.java:15) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.EventCreationUtil.createSendEvent(EventCreationUtil.java:49) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleClientBoundPacket(PacketEventsImplHelper.java:59) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.handleClientBoundPacket(PacketEventsEncoder.java:88) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:73) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:52) ~[grimac-2.3.69.jar:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:90) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	... 246 more
+[21:50:13] [Geyser Spigot connection thread-42-2/WARN]: [io.netty.channel.AbstractChannelHandlerContext] An exception 'java.lang.IllegalStateException: zip file closed' [enable DEBUG level for full stacktrace] was thrown by a user handler's exceptionCaught() method while handling the following exception:
+io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: zip file closed
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:107) ~[grimac-2.3.69.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.platform.spigot.GeyserSpigotCompressionDisabler.write(GeyserSpigotCompressionDisabler.java:90) ~[Geyser-Spigot.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.Connection$2.write(Connection.java:762) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.network.netty.ChannelWrapper.writeAndFlush(ChannelWrapper.java:219) ~[Geyser-Spigot.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.lambda$writeAndFlush$1(NettyChannelProxy.java:223) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.lambda$processPacketOutbound$2(NettyChannelProxy.java:266) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.processPacketOutbound(NettyChannelProxy.java:268) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:223) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[ProtocolLib.jar:?]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:513) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.sendPacket(Connection.java:495) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.send(Connection.java:457) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.send(Connection.java:443) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.send(Connection.java:439) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.destroystokyo.paper.network.StandardPaperServerListPingEventImpl.processRequest(StandardPaperServerListPingEventImpl.java:102) ~[paper-1.21.3.jar:?]
+	at net.minecraft.server.network.ServerStatusPacketListenerImpl.handleStatusRequest(ServerStatusPacketListenerImpl.java:157) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:22) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:13) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.genericsFtw(Connection.java:325) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:306) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:70) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:42) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundProtocolReader.channelRead(InboundProtocolReader.java:25) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.local.LocalChannel.doBeginRead(LocalChannel.java:322) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.beginRead(AbstractChannel.java:834) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.read(DefaultChannelPipeline.java:1362) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:814) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.read(FlowControlHandler.java:144) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:837) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:814) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.read(DefaultChannelPipeline.java:1004) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.read(AbstractChannel.java:290) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelConfig.setAutoRead(DefaultChannelConfig.java:341) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.UnconfiguredPipelineHandler.lambda$setupInboundHandler$0(UnconfiguredPipelineHandler.java:23) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.UnconfiguredPipelineHandler$Inbound.write(UnconfiguredPipelineHandler.java:48) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:102) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:102) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:107) ~[grimac-2.3.69.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.platform.spigot.GeyserSpigotCompressionDisabler.write(GeyserSpigotCompressionDisabler.java:90) ~[Geyser-Spigot.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.network.Connection$2.write(Connection.java:762) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.network.netty.ChannelWrapper.writeAndFlush(ChannelWrapper.java:219) ~[Geyser-Spigot.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[ProtocolLib.jar:?]
+	at net.minecraft.network.Connection.setupInboundProtocol(Connection.java:376) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerHandshakePacketListenerImpl.handleIntention(ServerHandshakePacketListenerImpl.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.handshake.ClientIntentionPacket.handle(ClientIntentionPacket.java:32) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.protocol.handshake.ClientIntentionPacket.handle(ClientIntentionPacket.java:9) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.genericsFtw(Connection.java:325) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:306) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:70) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.lambda$processInboundInternal$5(NettyChannelInjector.java:462) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.ensureInEventLoop(NettyChannelInjector.java:605) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processInboundInternal(NettyChannelInjector.java:462) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processInbound(NettyChannelInjector.java:439) ~[ProtocolLib.jar:?]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:47) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:534) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundProtocolReader.channelRead(InboundProtocolReader.java:25) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:114) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.local.LocalChannel.doBeginRead(LocalChannel.java:322) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.beginRead(AbstractChannel.java:834) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.read(DefaultChannelPipeline.java:1362) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:814) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.handler.flow.FlowControlHandler.read(FlowControlHandler.java:144) ~[netty-handler-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:837) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:814) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.read(DefaultChannelPipeline.java:1004) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.read(AbstractChannel.java:290) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.network.netty.ChannelWrapper.read(ChannelWrapper.java:198) ~[Geyser-Spigot.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.readIfIsAutoRead(DefaultChannelPipeline.java:1422) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelActive(DefaultChannelPipeline.java:1400) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelActive(AbstractChannelHandlerContext.java:258) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelActive(AbstractChannelHandlerContext.java:238) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:895) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:522) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:517) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.protocol.packettype.PacketType.getById(PacketType.java:165) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.ProtocolPacketEvent.<init>(ProtocolPacketEvent.java:83) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketSendEvent.<init>(PacketSendEvent.java:37) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.simple.PacketHandshakeSendEvent.<init>(PacketHandshakeSendEvent.java:15) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.EventCreationUtil.createSendEvent(EventCreationUtil.java:49) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleClientBoundPacket(PacketEventsImplHelper.java:59) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.handleClientBoundPacket(PacketEventsEncoder.java:88) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:73) ~[grimac-2.3.69.jar:?]
+	at grimac-2.3.69.jar/ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:52) ~[grimac-2.3.69.jar:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:90) ~[netty-codec-4.1.97.Final.jar:4.1.97.Final]
+	... 246 more
+[21:50:14] [pool-436-thread-2/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 46, threads = 4, took 8.87s)
+[21:50:14] [User Authenticator #7/INFO]: UUID of player svelnxx is 4b3aaadf-1c71-30f7-9f86-b1a342a8db24
+[21:50:16] [Server thread/INFO]: svelnxx[/127.217.179.14:45265] logged in with entity id 4896 at ([world]-64.51979973356825, 79.0, 113.65904336478636)
+[21:50:20] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user svelnxx has successfully logged in.
+[21:50:25] [Server thread/INFO]: svelnxx issued server command: /plugins
+[21:51:14] [Server thread/INFO]: svelnxx issued server command: /grim
+[21:51:18] [Server thread/INFO]: svelnxx issued server command: /grim alerts
+[21:51:20] [Server thread/INFO]: svelnxx issued server command: /grim alerts
+[21:51:25] [Server thread/INFO]: svelnxx issued server command: /grim log
+[21:51:30] [Server thread/INFO]: svelnxx issued server command: /grim log 1
+[21:51:31] [Server thread/INFO]: svelnxx issued server command: /grim log
+[21:51:34] [Server thread/INFO]: svelnxx issued server command: /grim log arg1
+[21:51:49] [Server thread/INFO]: svelnxx issued server command: /grim log arg1
+[21:51:51] [Server thread/INFO]: svelnxx issued server command: /grim log arg1 1
+[21:51:54] [Server thread/INFO]: svelnxx issued server command: /grim log 1
+[21:52:05] [Server thread/INFO]: svelnxx issued server command: /grim verbose
+[21:52:24] [Server thread/INFO]: svelnxx issued server command: /grim perf
+[21:52:47] [Server thread/INFO]: svelnxx issued server command: /grim brands
+[21:52:48] [Server thread/INFO]: svelnxx issued server command: /grim brands
+[21:53:07] [Server thread/INFO]: svelnxx issued server command: /grim profile svelnxx
+[21:53:27] [Server thread/INFO]: svelnxx issued server command: /grim version
