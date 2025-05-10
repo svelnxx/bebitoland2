@@ -1,0 +1,24 @@
+[2025/05/10 01:33:32]: §9          __             _       
+[2025/05/10 01:33:32]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/05/10 01:33:32]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/05/10 01:33:32]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/05/10 01:33:32]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/05/10 01:33:32]: §9                  |___/            
+[2025/05/10 01:33:32]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/05/10 01:33:32]: §9 
+[2025/05/10 01:33:33]: §3[nLogin] [DEBUG] All settings were loaded in 141 ms.
+[2025/05/10 01:33:33]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/05/10 01:33:33]: §3[nLogin] [DEBUG] All plugin messages were loaded in 102 ms (languageByClient=false).
+[2025/05/10 01:33:33]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/05/10 01:33:33]: §3[nLogin] [DEBUG] Loading database...
+[2025/05/10 01:33:33]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/05/10 01:33:56]: §3[nLogin] [DEBUG] Quiely ignoring the ProtocolLib exception (The method getUniqueId is not supported for temporary players.)
+[2025/05/10 01:34:16]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'svelnxx', `unique_id` = 4b3aaadf1c7130f79f86b1a342a8db24,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$L9ghKAy.j9DEEc7UH2auQeiS3no4OLSJ7VgghREqP5FWoXRB/lrHi', `last_ip` = '127.217.179.14', `creation_date` = 2025-05-06 23:20:23.522, `last_seen` = 2025-05-10 01:34:16.85, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/05/10 01:34:16]: [nLogin] The user svelnxx has successfully logged in.
+[2025/05/10 01:38:44]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'svelnxx', `unique_id` = 4b3aaadf1c7130f79f86b1a342a8db24,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$L9ghKAy.j9DEEc7UH2auQeiS3no4OLSJ7VgghREqP5FWoXRB/lrHi', `last_ip` = '127.217.179.14', `creation_date` = 2025-05-06 23:20:23.522, `last_seen` = 2025-05-10 01:38:44.01, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/05/10 01:38:51]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'svelnxx', `unique_id` = 4b3aaadf1c7130f79f86b1a342a8db24,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$L9ghKAy.j9DEEc7UH2auQeiS3no4OLSJ7VgghREqP5FWoXRB/lrHi', `last_ip` = '127.217.179.14', `creation_date` = 2025-05-06 23:20:23.522, `last_seen` = 2025-05-10 01:38:51.905, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/05/10 01:38:51]: [nLogin] The user svelnxx has successfully logged in.
+[2025/05/10 01:39:47]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'pyret8duk', `unique_id` = 26d02e37b78e3547821ad05853e732ef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$a9Os1sEcUhm25i2ZOwRvzOR9vaNuMr5.Aq/in2P0JBeubtGHxj8S.', `last_ip` = '127.232.140.29', `creation_date` = 2025-05-08 20:00:07.566, `last_seen` = 2025-05-10 01:39:47.875, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_ip, last_seen, settings] columns)
+[2025/05/10 01:39:47]: [nLogin] The user pyret8duk has successfully logged in.
+[2025/05/10 01:43:49]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'pyret8duk', `unique_id` = 26d02e37b78e3547821ad05853e732ef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$a9Os1sEcUhm25i2ZOwRvzOR9vaNuMr5.Aq/in2P0JBeubtGHxj8S.', `last_ip` = '127.232.140.29', `creation_date` = 2025-05-08 20:00:07.566, `last_seen` = 2025-05-10 01:43:49.706, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_seen, settings] columns)
+[2025/05/10 01:45:51]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'svelnxx', `unique_id` = 4b3aaadf1c7130f79f86b1a342a8db24,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$L9ghKAy.j9DEEc7UH2auQeiS3no4OLSJ7VgghREqP5FWoXRB/lrHi', `last_ip` = '127.217.179.14', `creation_date` = 2025-05-06 23:20:23.522, `last_seen` = 2025-05-10 01:45:51.155, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
